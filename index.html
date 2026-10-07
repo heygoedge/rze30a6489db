@@ -1,0 +1,768 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="color-scheme" content="light only"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex"><meta name="referrer" content="no-referrer"><title>昊得 郑 · 10 月 7 日 · 弯型分析 · Heygo</title>
+<style>
+html{color-scheme:light} :root{--ink:#1d2433;--sub:#5b6577;--line:#e6e9ef;--bg:#f6f7fb;--blue:#2a6fdb}
+*{box-sizing:border-box} body{margin:0;overflow-x:hidden;background:var(--bg);color:var(--ink);font-family:-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;line-height:1.7}
+.wrap{max-width:1080px;margin:0 auto;padding:0 14px 60px} h1{font-size:23px;margin:18px 0 4px} .by{color:var(--sub);font-size:14px}
+.pick{position:sticky;top:0;z-index:5;background:var(--bg);padding:10px 0;border-bottom:1px solid var(--line)} .pick select{width:100%;max-width:560px;font-size:16px;padding:8px 10px;border:1px solid var(--blue);border-radius:10px;background:#fff;color:var(--ink)}
+h2{font-size:18px;margin:24px 0 6px} h3{font-size:16px;margin:0} .th{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap} .th .t{font-size:12px;color:var(--sub)}
+.card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-top:10px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px} .chips span{background:var(--bg);border-radius:999px;padding:3px 12px;font-size:13px;color:var(--sub)} .chips b{color:var(--ink)} .fl{font-size:12px;color:var(--sub);margin-top:6px}
+.r1,.r2{display:grid;gap:6px;margin-top:8px} .r1{grid-template-columns:25.5% 1fr} .r2{grid-template-columns:20% 1fr 1fr;align-items:start} .r1 img,.r2 img{width:100%;display:block;border:1px solid var(--line);border-radius:8px;background:#fff}
+.nav{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px} .nav a{font-size:12px;padding:2px 9px;border:1px solid var(--blue);border-radius:999px;color:var(--blue);text-decoration:none}
+.tabs input{display:none} .btns{display:flex;gap:8px;margin:6px 0;flex-wrap:wrap} .btns label{flex:1;min-width:90px;text-align:center;padding:6px;border:1px solid var(--blue);border-radius:999px;color:var(--blue);font-size:13px;cursor:pointer}
+.tabs .pane{display:none} .tabs .pane img{max-width:440px;width:100%;display:block;margin:6px auto}
+.tabs input:nth-of-type(1):checked ~ .panes .p0,.tabs input:nth-of-type(2):checked ~ .panes .p1,.tabs input:nth-of-type(3):checked ~ .panes .p2,.tabs input:nth-of-type(4):checked ~ .panes .p3{display:block}
+.tabs input:nth-of-type(1):checked ~ .btns label:nth-of-type(1),.tabs input:nth-of-type(2):checked ~ .btns label:nth-of-type(2),.tabs input:nth-of-type(3):checked ~ .btns label:nth-of-type(3),.tabs input:nth-of-type(4):checked ~ .btns label:nth-of-type(4){background:var(--blue);color:#fff}
+.cap{font-size:13px;color:var(--sub)}
+@media(max-width:700px){.r1,.r2{grid-template-columns:minmax(0,1fr)}}
+</style></head><body><div class="wrap">
+<h1>昊得 郑 · 10 月 7 日 · 弯型分析</h1><div class="by">Heygo 团队 · 2026 年 10 月 7 日</div>
+<div class="pick"><select id="pick"><option value="r1s1">第 1 趟 · 09:59 · 21 个弯</option><option value="r2s1">第 2 趟 · 10:05 · 21 个弯</option><option value="r3s1">第 3 趟 · 10:10 · 16 个弯</option><option value="r4s1">第 4 趟 · 10:18 · 23 个弯</option><option value="r5s2">第 5 趟 · 10:24 · 21 个弯</option><option value="r6s1">第 6 趟 · 10:31 · 23 个弯</option><option value="r7s1">第 7 趟 · 10:39 · 19 个弯</option><option value="r8s1">第 8 趟 · 10:48 · 21 个弯</option><option value="r9s1">第 9 趟 · 10:54 · 29 个弯</option><option value="r10s1">第 10 趟 · 11:02 · 26 个弯</option></select></div>
+<section id="s-r1s1" class="run" hidden>
+<div class="card">第 1 趟，北京时间 09:59:10–09:59:47，传感器切出 21 个弯。这一趟的弯型、离心力、Peak 点用的是主链路自动选的左脚（前脚）。</div>
+<h2>整趟四张图</h2>
+<div class="card tabs"><input type="radio" name="m-r1s1" id="m0-r1s1" checked><input type="radio" name="m-r1s1" id="m1-r1s1"><input type="radio" name="m-r1s1" id="m2-r1s1"><input type="radio" name="m-r1s1" id="m3-r1s1">
+<div class="btns"><label for="m0-r1s1">① 离心力</label><label for="m1-r1s1">② Peak 点</label><label for="m2-r1s1">③ 施压时机</label><label for="m3-r1s1">④ 立刃稳定性</label></div>
+<div class="panes"><div class="pane p0"><img data-src="r1s1/img/run_force.png" alt=""></div><div class="pane p1"><img data-src="r1s1/img/run_peak.png" alt=""></div><div class="pane p2"><img data-src="r1s1/img/run_timing.png" alt=""></div><div class="pane p3"><img data-src="r1s1/img/run_stab.png" alt=""></div></div></div>
+<h2>逐弯核对</h2>
+<div class="cap">每个弯：上排 ① 弯型（俯视真实比例，蓝色深浅 = 离心力，黑横线 = 滚落线，绿点 = Peak 点）、② 左右脚离心力；下排 ③ 左右脚弯型、④ 左右脚旋转速率、⑤ 左右脚立刃角。Peak 点 = 立刃最高的那一刻（脚上 IMU 立刃角 3Hz）；施压时机 = 离心力有多少落在滚落线之前。</div>
+<div class="nav"><a href="#r1s1-t1">T1</a><a href="#r1s1-t2">T2</a><a href="#r1s1-t3">T3</a><a href="#r1s1-t4">T4</a><a href="#r1s1-t5">T5</a><a href="#r1s1-t6">T6</a><a href="#r1s1-t7">T7</a><a href="#r1s1-t8">T8</a><a href="#r1s1-t9">T9</a><a href="#r1s1-t10">T10</a><a href="#r1s1-t11">T11</a><a href="#r1s1-t12">T12</a><a href="#r1s1-t13">T13</a><a href="#r1s1-t14">T14</a><a href="#r1s1-t15">T15</a><a href="#r1s1-t16">T16</a><a href="#r1s1-t17">T17</a><a href="#r1s1-t18">T18</a><a href="#r1s1-t19">T19</a><a href="#r1s1-t20">T20</a><a href="#r1s1-t21">T21</a></div><div class="card turn" id="r1s1-t1"><div class="th"><h3>T1 · 前刃</h3><span class="t">09:59:10.99 – 09:59:14.91（3.9 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.94 g</b></span><span>施压时机 <b>18%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 42%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 18%　｜　右脚（后脚）Peak 早 · 施压时机 21%</div>
+<div class="r1"><img data-src="r1s1/img/ts01.png" alt=""><img data-src="r1s1/img/fg01.png" alt=""></div>
+<div class="r2"><img data-src="r1s1/img/fs01.png" alt=""><img data-src="r1s1/img/fr01.png" alt=""><img data-src="r1s1/img/fl01.png" alt=""></div></div><div class="card turn" id="r1s1-t2"><div class="th"><h3>T2 · 后刃</h3><span class="t">09:59:14.91 – 09:59:16.55（1.6 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.90 g</b></span><span>施压时机 <b>41%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 12%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 43%　｜　右脚（后脚）Peak 晚 · 施压时机 43%</div>
+<div class="r1"><img data-src="r1s1/img/ts02.png" alt=""><img data-src="r1s1/img/fg02.png" alt=""></div>
+<div class="r2"><img data-src="r1s1/img/fs02.png" alt=""><img data-src="r1s1/img/fr02.png" alt=""><img data-src="r1s1/img/fl02.png" alt=""></div></div><div class="card turn" id="r1s1-t3"><div class="th"><h3>T3 · 前刃</h3><span class="t">09:59:16.55 – 09:59:18.03（1.5 秒）</span></div>
+<div class="chips"><span>离心力 <b>2.18 g</b></span><span>施压时机 <b>42%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 50%　｜　右脚（后脚）Peak 准 · 施压时机 43%</div>
+<div class="r1"><img data-src="r1s1/img/ts03.png" alt=""><img data-src="r1s1/img/fg03.png" alt=""></div>
+<div class="r2"><img data-src="r1s1/img/fs03.png" alt=""><img data-src="r1s1/img/fr03.png" alt=""><img data-src="r1s1/img/fl03.png" alt=""></div></div><div class="card turn" id="r1s1-t4"><div class="th"><h3>T4 · 后刃</h3><span class="t">09:59:18.03 – 09:59:19.67（1.6 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.76 g</b></span><span>施压时机 <b>41%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 44%　｜　右脚（后脚）Peak 准 · 施压时机 41%</div>
+<div class="r1"><img data-src="r1s1/img/ts04.png" alt=""><img data-src="r1s1/img/fg04.png" alt=""></div>
+<div class="r2"><img data-src="r1s1/img/fs04.png" alt=""><img data-src="r1s1/img/fr04.png" alt=""><img data-src="r1s1/img/fl04.png" alt=""></div></div><div class="card turn" id="r1s1-t5"><div class="th"><h3>T5 · 前刃</h3><span class="t">09:59:19.67 – 09:59:21.07（1.4 秒）</span></div>
+<div class="chips"><span>离心力 <b>2.08 g</b></span><span>施压时机 <b>36%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 43%　｜　右脚（后脚）Peak 准 · 施压时机 36%</div>
+<div class="r1"><img data-src="r1s1/img/ts05.png" alt=""><img data-src="r1s1/img/fg05.png" alt=""></div>
+<div class="r2"><img data-src="r1s1/img/fs05.png" alt=""><img data-src="r1s1/img/fr05.png" alt=""><img data-src="r1s1/img/fl05.png" alt=""></div></div><div class="card turn" id="r1s1-t6"><div class="th"><h3>T6 · 后刃</h3><span class="t">09:59:21.07 – 09:59:22.83（1.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.78 g</b></span><span>施压时机 <b>42%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 41%　｜　右脚（后脚）Peak 准 · 施压时机 41%</div>
+<div class="r1"><img data-src="r1s1/img/ts06.png" alt=""><img data-src="r1s1/img/fg06.png" alt=""></div>
+<div class="r2"><img data-src="r1s1/img/fs06.png" alt=""><img data-src="r1s1/img/fr06.png" alt=""><img data-src="r1s1/img/fl06.png" alt=""></div></div><div class="card turn" id="r1s1-t7"><div class="th"><h3>T7 · 前刃</h3><span class="t">09:59:22.83 – 09:59:24.35（1.5 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.85 g</b></span><span>施压时机 <b>36%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 40%　｜　右脚（后脚）Peak 准 · 施压时机 34%</div>
+<div class="r1"><img data-src="r1s1/img/ts07.png" alt=""><img data-src="r1s1/img/fg07.png" alt=""></div>
+<div class="r2"><img data-src="r1s1/img/fs07.png" alt=""><img data-src="r1s1/img/fr07.png" alt=""><img data-src="r1s1/img/fl07.png" alt=""></div></div><div class="card turn" id="r1s1-t8"><div class="th"><h3>T8 · 后刃</h3><span class="t">09:59:24.35 – 09:59:26.15（1.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.68 g</b></span><span>施压时机 <b>38%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 40%　｜　右脚（后脚）Peak 准 · 施压时机 36%</div>
+<div class="r1"><img data-src="r1s1/img/ts08.png" alt=""><img data-src="r1s1/img/fg08.png" alt=""></div>
+<div class="r2"><img data-src="r1s1/img/fs08.png" alt=""><img data-src="r1s1/img/fr08.png" alt=""><img data-src="r1s1/img/fl08.png" alt=""></div></div><div class="card turn" id="r1s1-t9"><div class="th"><h3>T9 · 前刃</h3><span class="t">09:59:26.15 – 09:59:27.79（1.6 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.98 g</b></span><span>施压时机 <b>36%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 12%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 40%　｜　右脚（后脚）Peak 晚 · 施压时机 36%</div>
+<div class="r1"><img data-src="r1s1/img/ts09.png" alt=""><img data-src="r1s1/img/fg09.png" alt=""></div>
+<div class="r2"><img data-src="r1s1/img/fs09.png" alt=""><img data-src="r1s1/img/fr09.png" alt=""><img data-src="r1s1/img/fl09.png" alt=""></div></div><div class="card turn" id="r1s1-t10"><div class="th"><h3>T10 · 后刃</h3><span class="t">09:59:27.79 – 09:59:29.55（1.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.83 g</b></span><span>施压时机 <b>43%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 45%　｜　右脚（后脚）Peak 准 · 施压时机 42%</div>
+<div class="r1"><img data-src="r1s1/img/ts10.png" alt=""><img data-src="r1s1/img/fg10.png" alt=""></div>
+<div class="r2"><img data-src="r1s1/img/fs10.png" alt=""><img data-src="r1s1/img/fr10.png" alt=""><img data-src="r1s1/img/fl10.png" alt=""></div></div><div class="card turn" id="r1s1-t11"><div class="th"><h3>T11 · 前刃</h3><span class="t">09:59:29.55 – 09:59:30.83（1.3 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.55 g</b></span><span>施压时机 <b>38%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 44%　｜　右脚（后脚）Peak 晚 · 施压时机 38%</div>
+<div class="r1"><img data-src="r1s1/img/ts11.png" alt=""><img data-src="r1s1/img/fg11.png" alt=""></div>
+<div class="r2"><img data-src="r1s1/img/fs11.png" alt=""><img data-src="r1s1/img/fr11.png" alt=""><img data-src="r1s1/img/fl11.png" alt=""></div></div><div class="card turn" id="r1s1-t12"><div class="th"><h3>T12 · 后刃</h3><span class="t">09:59:30.83 – 09:59:31.95（1.1 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.31 g</b></span><span>施压时机 <b>20%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 21%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 23%　｜　右脚（后脚）Peak 晚 · 施压时机 20%</div>
+<div class="r1"><img data-src="r1s1/img/ts12.png" alt=""><img data-src="r1s1/img/fg12.png" alt=""></div>
+<div class="r2"><img data-src="r1s1/img/fs12.png" alt=""><img data-src="r1s1/img/fr12.png" alt=""><img data-src="r1s1/img/fl12.png" alt=""></div></div><div class="card turn" id="r1s1-t13"><div class="th"><h3>T13 · 前刃</h3><span class="t">09:59:31.95 – 09:59:32.95（1.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.75 g</b></span><span>施压时机 <b>38%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 47%　｜　右脚（后脚）Peak 准 · 施压时机 37%</div>
+<div class="r1"><img data-src="r1s1/img/ts13.png" alt=""><img data-src="r1s1/img/fg13.png" alt=""></div>
+<div class="r2"><img data-src="r1s1/img/fs13.png" alt=""><img data-src="r1s1/img/fr13.png" alt=""><img data-src="r1s1/img/fl13.png" alt=""></div></div><div class="card turn" id="r1s1-t14"><div class="th"><h3>T14 · 后刃</h3><span class="t">09:59:32.95 – 09:59:34.03（1.1 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.39 g</b></span><span>施压时机 <b>20%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 22%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 24%　｜　右脚（后脚）Peak 晚 · 施压时机 23%</div>
+<div class="r1"><img data-src="r1s1/img/ts14.png" alt=""><img data-src="r1s1/img/fg14.png" alt=""></div>
+<div class="r2"><img data-src="r1s1/img/fs14.png" alt=""><img data-src="r1s1/img/fr14.png" alt=""><img data-src="r1s1/img/fl14.png" alt=""></div></div><div class="card turn" id="r1s1-t15"><div class="th"><h3>T15 · 前刃</h3><span class="t">09:59:34.03 – 09:59:34.95（0.9 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.66 g</b></span><span>施压时机 <b>30%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 37%　｜　右脚（后脚）Peak 准 · 施压时机 25%</div>
+<div class="r1"><img data-src="r1s1/img/ts15.png" alt=""><img data-src="r1s1/img/fg15.png" alt=""></div>
+<div class="r2"><img data-src="r1s1/img/fs15.png" alt=""><img data-src="r1s1/img/fr15.png" alt=""><img data-src="r1s1/img/fl15.png" alt=""></div></div><div class="card turn" id="r1s1-t16"><div class="th"><h3>T16 · 后刃</h3><span class="t">09:59:34.95 – 09:59:36.15（1.2 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.73 g</b></span><span>施压时机 <b>29%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 17%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 35%　｜　右脚（后脚）Peak 晚 · 施压时机 31%</div>
+<div class="r1"><img data-src="r1s1/img/ts16.png" alt=""><img data-src="r1s1/img/fg16.png" alt=""></div>
+<div class="r2"><img data-src="r1s1/img/fs16.png" alt=""><img data-src="r1s1/img/fr16.png" alt=""><img data-src="r1s1/img/fl16.png" alt=""></div></div><div class="card turn" id="r1s1-t17"><div class="th"><h3>T17 · 前刃</h3><span class="t">09:59:36.15 – 09:59:37.59（1.4 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.27 g</b></span><span>施压时机 <b>37%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 44%　｜　右脚（后脚）Peak 晚 · 施压时机 39%</div>
+<div class="r1"><img data-src="r1s1/img/ts17.png" alt=""><img data-src="r1s1/img/fg17.png" alt=""></div>
+<div class="r2"><img data-src="r1s1/img/fs17.png" alt=""><img data-src="r1s1/img/fr17.png" alt=""><img data-src="r1s1/img/fl17.png" alt=""></div></div><div class="card turn" id="r1s1-t18"><div class="th"><h3>T18 · 后刃</h3><span class="t">09:59:37.59 – 09:59:39.63（2.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.75 g</b></span><span>施压时机 <b>45%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 25%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 48%　｜　右脚（后脚）Peak 晚 · 施压时机 44%</div>
+<div class="r1"><img data-src="r1s1/img/ts18.png" alt=""><img data-src="r1s1/img/fg18.png" alt=""></div>
+<div class="r2"><img data-src="r1s1/img/fs18.png" alt=""><img data-src="r1s1/img/fr18.png" alt=""><img data-src="r1s1/img/fl18.png" alt=""></div></div><div class="card turn" id="r1s1-t19"><div class="th"><h3>T19 · 前刃</h3><span class="t">09:59:39.63 – 09:59:43.35（3.7 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.58 g</b></span><span>施压时机 <b>56%</b> 在滚落线前</span><span>Peak 点 <b>早</b> （滚落线前 18%）</span></div><div class="fl">左脚（前脚）Peak 早 · 施压时机 58%　｜　右脚（后脚）Peak 晚 · 施压时机 57%</div>
+<div class="r1"><img data-src="r1s1/img/ts19.png" alt=""><img data-src="r1s1/img/fg19.png" alt=""></div>
+<div class="r2"><img data-src="r1s1/img/fs19.png" alt=""><img data-src="r1s1/img/fr19.png" alt=""><img data-src="r1s1/img/fl19.png" alt=""></div></div><div class="card turn" id="r1s1-t20"><div class="th"><h3>T20 · 后刃</h3><span class="t">09:59:43.35 – 09:59:44.79（1.4 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.82 g</b></span><span>施压时机 <b>55%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 早 · 施压时机 69%　｜　右脚（后脚）Peak 准 · 施压时机 46%</div>
+<div class="r1"><img data-src="r1s1/img/ts20.png" alt=""><img data-src="r1s1/img/fg20.png" alt=""></div>
+<div class="r2"><img data-src="r1s1/img/fs20.png" alt=""><img data-src="r1s1/img/fr20.png" alt=""><img data-src="r1s1/img/fl20.png" alt=""></div></div><div class="card turn" id="r1s1-t21"><div class="th"><h3>T21 · 后刃</h3><span class="t">09:59:44.79 – 09:59:47.63（2.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.23 g</b></span><span>施压时机 <b>36%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 29%　｜　右脚（后脚）Peak 早 · 施压时机 54%</div>
+<div class="r1"><img data-src="r1s1/img/ts21.png" alt=""><img data-src="r1s1/img/fg21.png" alt=""></div>
+<div class="r2"><img data-src="r1s1/img/fs21.png" alt=""><img data-src="r1s1/img/fr21.png" alt=""><img data-src="r1s1/img/fl21.png" alt=""></div></div></section><section id="s-r2s1" class="run" hidden>
+<div class="card">第 2 趟，北京时间 10:05:03–10:05:38，传感器切出 21 个弯。这一趟的弯型、离心力、Peak 点用的是主链路自动选的右脚（后脚）。</div>
+<h2>整趟四张图</h2>
+<div class="card tabs"><input type="radio" name="m-r2s1" id="m0-r2s1" checked><input type="radio" name="m-r2s1" id="m1-r2s1"><input type="radio" name="m-r2s1" id="m2-r2s1"><input type="radio" name="m-r2s1" id="m3-r2s1">
+<div class="btns"><label for="m0-r2s1">① 离心力</label><label for="m1-r2s1">② Peak 点</label><label for="m2-r2s1">③ 施压时机</label><label for="m3-r2s1">④ 立刃稳定性</label></div>
+<div class="panes"><div class="pane p0"><img data-src="r2s1/img/run_force.png" alt=""></div><div class="pane p1"><img data-src="r2s1/img/run_peak.png" alt=""></div><div class="pane p2"><img data-src="r2s1/img/run_timing.png" alt=""></div><div class="pane p3"><img data-src="r2s1/img/run_stab.png" alt=""></div></div></div>
+<h2>逐弯核对</h2>
+<div class="cap">每个弯：上排 ① 弯型（俯视真实比例，蓝色深浅 = 离心力，黑横线 = 滚落线，绿点 = Peak 点）、② 左右脚离心力；下排 ③ 左右脚弯型、④ 左右脚旋转速率、⑤ 左右脚立刃角。Peak 点 = 立刃最高的那一刻（脚上 IMU 立刃角 3Hz）；施压时机 = 离心力有多少落在滚落线之前。</div>
+<div class="nav"><a href="#r2s1-t1">T1</a><a href="#r2s1-t2">T2</a><a href="#r2s1-t3">T3</a><a href="#r2s1-t4">T4</a><a href="#r2s1-t5">T5</a><a href="#r2s1-t6">T6</a><a href="#r2s1-t7">T7</a><a href="#r2s1-t8">T8</a><a href="#r2s1-t9">T9</a><a href="#r2s1-t10">T10</a><a href="#r2s1-t11">T11</a><a href="#r2s1-t12">T12</a><a href="#r2s1-t13">T13</a><a href="#r2s1-t14">T14</a><a href="#r2s1-t15">T15</a><a href="#r2s1-t16">T16</a><a href="#r2s1-t17">T17</a><a href="#r2s1-t18">T18</a><a href="#r2s1-t19">T19</a><a href="#r2s1-t20">T20</a><a href="#r2s1-t21">T21</a></div><div class="card turn" id="r2s1-t1"><div class="th"><h3>T1 · 前刃</h3><span class="t">10:05:03.77 – 10:05:05.61（1.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.92 g</b></span><span>施压时机 <b>52%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 57%　｜　右脚（后脚）Peak 准 · 施压时机 52%</div>
+<div class="r1"><img data-src="r2s1/img/ts01.png" alt=""><img data-src="r2s1/img/fg01.png" alt=""></div>
+<div class="r2"><img data-src="r2s1/img/fs01.png" alt=""><img data-src="r2s1/img/fr01.png" alt=""><img data-src="r2s1/img/fl01.png" alt=""></div></div><div class="card turn" id="r2s1-t2"><div class="th"><h3>T2 · 后刃</h3><span class="t">10:05:05.61 – 10:05:07.17（1.6 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.55 g</b></span><span>施压时机 <b>34%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 36%　｜　右脚（后脚）Peak 准 · 施压时机 31%</div>
+<div class="r1"><img data-src="r2s1/img/ts02.png" alt=""><img data-src="r2s1/img/fg02.png" alt=""></div>
+<div class="r2"><img data-src="r2s1/img/fs02.png" alt=""><img data-src="r2s1/img/fr02.png" alt=""><img data-src="r2s1/img/fl02.png" alt=""></div></div><div class="card turn" id="r2s1-t3"><div class="th"><h3>T3 · 前刃</h3><span class="t">10:05:07.17 – 10:05:08.73（1.6 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.98 g</b></span><span>施压时机 <b>49%</b> 在滚落线前</span><span>Peak 点 <b>早</b> （滚落线前 13%）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 53%　｜　右脚（后脚）Peak 早 · 施压时机 48%</div>
+<div class="r1"><img data-src="r2s1/img/ts03.png" alt=""><img data-src="r2s1/img/fg03.png" alt=""></div>
+<div class="r2"><img data-src="r2s1/img/fs03.png" alt=""><img data-src="r2s1/img/fr03.png" alt=""><img data-src="r2s1/img/fl03.png" alt=""></div></div><div class="card turn" id="r2s1-t4"><div class="th"><h3>T4 · 后刃</h3><span class="t">10:05:08.73 – 10:05:10.61（1.9 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.89 g</b></span><span>施压时机 <b>42%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 13%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 43%　｜　右脚（后脚）Peak 晚 · 施压时机 43%</div>
+<div class="r1"><img data-src="r2s1/img/ts04.png" alt=""><img data-src="r2s1/img/fg04.png" alt=""></div>
+<div class="r2"><img data-src="r2s1/img/fs04.png" alt=""><img data-src="r2s1/img/fr04.png" alt=""><img data-src="r2s1/img/fl04.png" alt=""></div></div><div class="card turn" id="r2s1-t5"><div class="th"><h3>T5 · 前刃</h3><span class="t">10:05:10.61 – 10:05:12.33（1.7 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.83 g</b></span><span>施压时机 <b>52%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 58%　｜　右脚（后脚）Peak 准 · 施压时机 52%</div>
+<div class="r1"><img data-src="r2s1/img/ts05.png" alt=""><img data-src="r2s1/img/fg05.png" alt=""></div>
+<div class="r2"><img data-src="r2s1/img/fs05.png" alt=""><img data-src="r2s1/img/fr05.png" alt=""><img data-src="r2s1/img/fl05.png" alt=""></div></div><div class="card turn" id="r2s1-t6"><div class="th"><h3>T6 · 后刃</h3><span class="t">10:05:12.33 – 10:05:14.13（1.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.71 g</b></span><span>施压时机 <b>56%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 60%　｜　右脚（后脚）Peak 准 · 施压时机 58%</div>
+<div class="r1"><img data-src="r2s1/img/ts06.png" alt=""><img data-src="r2s1/img/fg06.png" alt=""></div>
+<div class="r2"><img data-src="r2s1/img/fs06.png" alt=""><img data-src="r2s1/img/fr06.png" alt=""><img data-src="r2s1/img/fl06.png" alt=""></div></div><div class="card turn" id="r2s1-t7"><div class="th"><h3>T7 · 前刃</h3><span class="t">10:05:14.13 – 10:05:15.77（1.6 秒）</span></div>
+<div class="chips"><span>离心力 <b>2.23 g</b></span><span>施压时机 <b>58%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 67%　｜　右脚（后脚）Peak 准 · 施压时机 61%</div>
+<div class="r1"><img data-src="r2s1/img/ts07.png" alt=""><img data-src="r2s1/img/fg07.png" alt=""></div>
+<div class="r2"><img data-src="r2s1/img/fs07.png" alt=""><img data-src="r2s1/img/fr07.png" alt=""><img data-src="r2s1/img/fl07.png" alt=""></div></div><div class="card turn" id="r2s1-t8"><div class="th"><h3>T8 · 后刃</h3><span class="t">10:05:15.77 – 10:05:17.61（1.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.76 g</b></span><span>施压时机 <b>56%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 56%　｜　右脚（后脚）Peak 准 · 施压时机 57%</div>
+<div class="r1"><img data-src="r2s1/img/ts08.png" alt=""><img data-src="r2s1/img/fg08.png" alt=""></div>
+<div class="r2"><img data-src="r2s1/img/fs08.png" alt=""><img data-src="r2s1/img/fr08.png" alt=""><img data-src="r2s1/img/fl08.png" alt=""></div></div><div class="card turn" id="r2s1-t9"><div class="th"><h3>T9 · 前刃</h3><span class="t">10:05:17.61 – 10:05:19.25（1.6 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.94 g</b></span><span>施压时机 <b>55%</b> 在滚落线前</span><span>Peak 点 <b>早</b> （滚落线前 20%）</span></div><div class="fl">左脚（前脚）Peak 早 · 施压时机 60%　｜　右脚（后脚）Peak 早 · 施压时机 55%</div>
+<div class="r1"><img data-src="r2s1/img/ts09.png" alt=""><img data-src="r2s1/img/fg09.png" alt=""></div>
+<div class="r2"><img data-src="r2s1/img/fs09.png" alt=""><img data-src="r2s1/img/fr09.png" alt=""><img data-src="r2s1/img/fl09.png" alt=""></div></div><div class="card turn" id="r2s1-t10"><div class="th"><h3>T10 · 后刃</h3><span class="t">10:05:19.25 – 10:05:20.93（1.7 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.50 g</b></span><span>施压时机 <b>61%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 早 · 施压时机 69%　｜　右脚（后脚）Peak 早 · 施压时机 65%</div>
+<div class="r1"><img data-src="r2s1/img/ts10.png" alt=""><img data-src="r2s1/img/fg10.png" alt=""></div>
+<div class="r2"><img data-src="r2s1/img/fs10.png" alt=""><img data-src="r2s1/img/fr10.png" alt=""><img data-src="r2s1/img/fl10.png" alt=""></div></div><div class="card turn" id="r2s1-t11"><div class="th"><h3>T11 · 前刃</h3><span class="t">10:05:20.93 – 10:05:22.21（1.3 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.72 g</b></span><span>施压时机 <b>36%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 12%）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 45%　｜　右脚（后脚）Peak 准 · 施压时机 38%</div>
+<div class="r1"><img data-src="r2s1/img/ts11.png" alt=""><img data-src="r2s1/img/fg11.png" alt=""></div>
+<div class="r2"><img data-src="r2s1/img/fs11.png" alt=""><img data-src="r2s1/img/fr11.png" alt=""><img data-src="r2s1/img/fl11.png" alt=""></div></div><div class="card turn" id="r2s1-t12"><div class="th"><h3>T12 · 后刃</h3><span class="t">10:05:22.21 – 10:05:23.41（1.2 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.28 g</b></span><span>施压时机 <b>41%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 23%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 44%　｜　右脚（后脚）Peak 晚 · 施压时机 42%</div>
+<div class="r1"><img data-src="r2s1/img/ts12.png" alt=""><img data-src="r2s1/img/fg12.png" alt=""></div>
+<div class="r2"><img data-src="r2s1/img/fs12.png" alt=""><img data-src="r2s1/img/fr12.png" alt=""><img data-src="r2s1/img/fl12.png" alt=""></div></div><div class="card turn" id="r2s1-t13"><div class="th"><h3>T13 · 前刃</h3><span class="t">10:05:23.41 – 10:05:24.33（0.9 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.55 g</b></span><span>施压时机 <b>36%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 43%　｜　右脚（后脚）Peak 准 · 施压时机 32%</div>
+<div class="r1"><img data-src="r2s1/img/ts13.png" alt=""><img data-src="r2s1/img/fg13.png" alt=""></div>
+<div class="r2"><img data-src="r2s1/img/fs13.png" alt=""><img data-src="r2s1/img/fr13.png" alt=""><img data-src="r2s1/img/fl13.png" alt=""></div></div><div class="card turn" id="r2s1-t14"><div class="th"><h3>T14 · 后刃</h3><span class="t">10:05:24.33 – 10:05:25.33（1.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.50 g</b></span><span>施压时机 <b>42%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 12%）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 45%　｜　右脚（后脚）Peak 晚 · 施压时机 41%</div>
+<div class="r1"><img data-src="r2s1/img/ts14.png" alt=""><img data-src="r2s1/img/fg14.png" alt=""></div>
+<div class="r2"><img data-src="r2s1/img/fs14.png" alt=""><img data-src="r2s1/img/fr14.png" alt=""><img data-src="r2s1/img/fl14.png" alt=""></div></div><div class="card turn" id="r2s1-t15"><div class="th"><h3>T15 · 前刃</h3><span class="t">10:05:25.33 – 10:05:26.45（1.1 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.37 g</b></span><span>施压时机 <b>33%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 11%）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 43%　｜　右脚（后脚）Peak 晚 · 施压时机 33%</div>
+<div class="r1"><img data-src="r2s1/img/ts15.png" alt=""><img data-src="r2s1/img/fg15.png" alt=""></div>
+<div class="r2"><img data-src="r2s1/img/fs15.png" alt=""><img data-src="r2s1/img/fr15.png" alt=""><img data-src="r2s1/img/fl15.png" alt=""></div></div><div class="card turn" id="r2s1-t16"><div class="th"><h3>T16 · 后刃</h3><span class="t">10:05:26.45 – 10:05:27.53（1.1 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.68 g</b></span><span>施压时机 <b>33%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 41%　｜　右脚（后脚）Peak 准 · 施压时机 37%</div>
+<div class="r1"><img data-src="r2s1/img/ts16.png" alt=""><img data-src="r2s1/img/fg16.png" alt=""></div>
+<div class="r2"><img data-src="r2s1/img/fs16.png" alt=""><img data-src="r2s1/img/fr16.png" alt=""><img data-src="r2s1/img/fl16.png" alt=""></div></div><div class="card turn" id="r2s1-t17"><div class="th"><h3>T17 · 前刃</h3><span class="t">10:05:27.53 – 10:05:28.85（1.3 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.34 g</b></span><span>施压时机 <b>35%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 15%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 44%　｜　右脚（后脚）Peak 晚 · 施压时机 38%</div>
+<div class="r1"><img data-src="r2s1/img/ts17.png" alt=""><img data-src="r2s1/img/fg17.png" alt=""></div>
+<div class="r2"><img data-src="r2s1/img/fs17.png" alt=""><img data-src="r2s1/img/fr17.png" alt=""><img data-src="r2s1/img/fl17.png" alt=""></div></div><div class="card turn" id="r2s1-t18"><div class="th"><h3>T18 · 后刃</h3><span class="t">10:05:28.85 – 10:05:30.61（1.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.79 g</b></span><span>施压时机 <b>33%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 14%）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 38%　｜　右脚（后脚）Peak 晚 · 施压时机 34%</div>
+<div class="r1"><img data-src="r2s1/img/ts18.png" alt=""><img data-src="r2s1/img/fg18.png" alt=""></div>
+<div class="r2"><img data-src="r2s1/img/fs18.png" alt=""><img data-src="r2s1/img/fr18.png" alt=""><img data-src="r2s1/img/fl18.png" alt=""></div></div><div class="card turn" id="r2s1-t19"><div class="th"><h3>T19 · 前刃</h3><span class="t">10:05:30.61 – 10:05:34.41（3.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.61 g</b></span><span>施压时机 <b>52%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 40%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 53%　｜　右脚（后脚）Peak 晚 · 施压时机 52%</div>
+<div class="r1"><img data-src="r2s1/img/ts19.png" alt=""><img data-src="r2s1/img/fg19.png" alt=""></div>
+<div class="r2"><img data-src="r2s1/img/fs19.png" alt=""><img data-src="r2s1/img/fr19.png" alt=""><img data-src="r2s1/img/fl19.png" alt=""></div></div><div class="card turn" id="r2s1-t20"><div class="th"><h3>T20 · 后刃</h3><span class="t">10:05:34.41 – 10:05:35.73（1.3 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.97 g</b></span><span>施压时机 <b>41%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 62%　｜　右脚（后脚）Peak 准 · 施压时机 30%</div>
+<div class="r1"><img data-src="r2s1/img/ts20.png" alt=""><img data-src="r2s1/img/fg20.png" alt=""></div>
+<div class="r2"><img data-src="r2s1/img/fs20.png" alt=""><img data-src="r2s1/img/fr20.png" alt=""><img data-src="r2s1/img/fl20.png" alt=""></div></div><div class="card turn" id="r2s1-t21"><div class="th"><h3>T21 · 后刃</h3><span class="t">10:05:35.73 – 10:05:38.17（2.4 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.32 g</b></span><span>施压时机 <b>58%</b> 在滚落线前</span><span>Peak 点 <b>早</b> （滚落线前 18%）</span></div><div class="fl">左脚（前脚）Peak 早 · 施压时机 50%　｜　右脚（后脚）Peak 早 · 施压时机 67%</div>
+<div class="r1"><img data-src="r2s1/img/ts21.png" alt=""><img data-src="r2s1/img/fg21.png" alt=""></div>
+<div class="r2"><img data-src="r2s1/img/fs21.png" alt=""><img data-src="r2s1/img/fr21.png" alt=""><img data-src="r2s1/img/fl21.png" alt=""></div></div></section><section id="s-r3s1" class="run" hidden>
+<div class="card">第 3 趟，北京时间 10:10:46–10:11:13，传感器切出 16 个弯。这一趟的弯型、离心力、Peak 点用的是主链路自动选的左脚（前脚）。</div>
+<h2>整趟四张图</h2>
+<div class="card tabs"><input type="radio" name="m-r3s1" id="m0-r3s1" checked><input type="radio" name="m-r3s1" id="m1-r3s1"><input type="radio" name="m-r3s1" id="m2-r3s1"><input type="radio" name="m-r3s1" id="m3-r3s1">
+<div class="btns"><label for="m0-r3s1">① 离心力</label><label for="m1-r3s1">② Peak 点</label><label for="m2-r3s1">③ 施压时机</label><label for="m3-r3s1">④ 立刃稳定性</label></div>
+<div class="panes"><div class="pane p0"><img data-src="r3s1/img/run_force.png" alt=""></div><div class="pane p1"><img data-src="r3s1/img/run_peak.png" alt=""></div><div class="pane p2"><img data-src="r3s1/img/run_timing.png" alt=""></div><div class="pane p3"><img data-src="r3s1/img/run_stab.png" alt=""></div></div></div>
+<h2>逐弯核对</h2>
+<div class="cap">每个弯：上排 ① 弯型（俯视真实比例，蓝色深浅 = 离心力，黑横线 = 滚落线，绿点 = Peak 点）、② 左右脚离心力；下排 ③ 左右脚弯型、④ 左右脚旋转速率、⑤ 左右脚立刃角。Peak 点 = 立刃最高的那一刻（脚上 IMU 立刃角 3Hz）；施压时机 = 离心力有多少落在滚落线之前。</div>
+<div class="nav"><a href="#r3s1-t1">T1</a><a href="#r3s1-t2">T2</a><a href="#r3s1-t3">T3</a><a href="#r3s1-t4">T4</a><a href="#r3s1-t5">T5</a><a href="#r3s1-t6">T6</a><a href="#r3s1-t7">T7</a><a href="#r3s1-t8">T8</a><a href="#r3s1-t9">T9</a><a href="#r3s1-t10">T10</a><a href="#r3s1-t11">T11</a><a href="#r3s1-t12">T12</a><a href="#r3s1-t13">T13</a><a href="#r3s1-t14">T14</a><a href="#r3s1-t15">T15</a><a href="#r3s1-t16">T16</a></div><div class="card turn" id="r3s1-t1"><div class="th"><h3>T1 · 前刃</h3><span class="t">10:10:46.47 – 10:10:47.83（1.4 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.10 g</b></span><span>施压时机 <b>43%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 46%　｜　右脚（后脚）Peak 准 · 施压时机 40%</div>
+<div class="r1"><img data-src="r3s1/img/ts01.png" alt=""><img data-src="r3s1/img/fg01.png" alt=""></div>
+<div class="r2"><img data-src="r3s1/img/fs01.png" alt=""><img data-src="r3s1/img/fr01.png" alt=""><img data-src="r3s1/img/fl01.png" alt=""></div></div><div class="card turn" id="r3s1-t2"><div class="th"><h3>T2 · 后刃</h3><span class="t">10:10:47.83 – 10:10:49.35（1.5 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.57 g</b></span><span>施压时机 <b>40%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 42%　｜　右脚（后脚）Peak 晚 · 施压时机 40%</div>
+<div class="r1"><img data-src="r3s1/img/ts02.png" alt=""><img data-src="r3s1/img/fg02.png" alt=""></div>
+<div class="r2"><img data-src="r3s1/img/fs02.png" alt=""><img data-src="r3s1/img/fr02.png" alt=""><img data-src="r3s1/img/fl02.png" alt=""></div></div><div class="card turn" id="r3s1-t3"><div class="th"><h3>T3 · 前刃</h3><span class="t">10:10:49.35 – 10:10:50.99（1.6 秒）</span></div>
+<div class="chips"><span>离心力 <b>2.23 g</b></span><span>施压时机 <b>38%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 40%　｜　右脚（后脚）Peak 早 · 施压时机 38%</div>
+<div class="r1"><img data-src="r3s1/img/ts03.png" alt=""><img data-src="r3s1/img/fg03.png" alt=""></div>
+<div class="r2"><img data-src="r3s1/img/fs03.png" alt=""><img data-src="r3s1/img/fr03.png" alt=""><img data-src="r3s1/img/fl03.png" alt=""></div></div><div class="card turn" id="r3s1-t4"><div class="th"><h3>T4 · 后刃</h3><span class="t">10:10:50.99 – 10:10:52.83（1.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.76 g</b></span><span>施压时机 <b>36%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 39%　｜　右脚（后脚）Peak 准 · 施压时机 35%</div>
+<div class="r1"><img data-src="r3s1/img/ts04.png" alt=""><img data-src="r3s1/img/fg04.png" alt=""></div>
+<div class="r2"><img data-src="r3s1/img/fs04.png" alt=""><img data-src="r3s1/img/fr04.png" alt=""><img data-src="r3s1/img/fl04.png" alt=""></div></div><div class="card turn" id="r3s1-t5"><div class="th"><h3>T5 · 前刃</h3><span class="t">10:10:52.83 – 10:10:54.39（1.6 秒）</span></div>
+<div class="chips"><span>离心力 <b>2.26 g</b></span><span>施压时机 <b>39%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 42%　｜　右脚（后脚）Peak 准 · 施压时机 37%</div>
+<div class="r1"><img data-src="r3s1/img/ts05.png" alt=""><img data-src="r3s1/img/fg05.png" alt=""></div>
+<div class="r2"><img data-src="r3s1/img/fs05.png" alt=""><img data-src="r3s1/img/fr05.png" alt=""><img data-src="r3s1/img/fl05.png" alt=""></div></div><div class="card turn" id="r3s1-t6"><div class="th"><h3>T6 · 后刃</h3><span class="t">10:10:54.39 – 10:10:56.23（1.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.71 g</b></span><span>施压时机 <b>50%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 49%　｜　右脚（后脚）Peak 准 · 施压时机 46%</div>
+<div class="r1"><img data-src="r3s1/img/ts06.png" alt=""><img data-src="r3s1/img/fg06.png" alt=""></div>
+<div class="r2"><img data-src="r3s1/img/fs06.png" alt=""><img data-src="r3s1/img/fr06.png" alt=""><img data-src="r3s1/img/fl06.png" alt=""></div></div><div class="card turn" id="r3s1-t7"><div class="th"><h3>T7 · 前刃</h3><span class="t">10:10:56.23 – 10:10:57.87（1.6 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.81 g</b></span><span>施压时机 <b>35%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 38%　｜　右脚（后脚）Peak 晚 · 施压时机 33%</div>
+<div class="r1"><img data-src="r3s1/img/ts07.png" alt=""><img data-src="r3s1/img/fg07.png" alt=""></div>
+<div class="r2"><img data-src="r3s1/img/fs07.png" alt=""><img data-src="r3s1/img/fr07.png" alt=""><img data-src="r3s1/img/fl07.png" alt=""></div></div><div class="card turn" id="r3s1-t8"><div class="th"><h3>T8 · 后刃</h3><span class="t">10:10:57.87 – 10:11:00.15（2.3 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.53 g</b></span><span>施压时机 <b>72%</b> 在滚落线前</span><span>Peak 点 <b>早</b> （滚落线前 21%）</span></div><div class="fl">左脚（前脚）Peak 早 · 施压时机 76%　｜　右脚（后脚）Peak 早 · 施压时机 65%</div>
+<div class="r1"><img data-src="r3s1/img/ts08.png" alt=""><img data-src="r3s1/img/fg08.png" alt=""></div>
+<div class="r2"><img data-src="r3s1/img/fs08.png" alt=""><img data-src="r3s1/img/fr08.png" alt=""><img data-src="r3s1/img/fl08.png" alt=""></div></div><div class="card turn" id="r3s1-t9"><div class="th"><h3>T9 · 后刃</h3><span class="t">10:11:00.15 – 10:11:01.47（1.3 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.47 g</b></span><span>施压时机 <b>51%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 61%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 11%　｜　右脚（后脚）Peak 早 · 施压时机 78%</div>
+<div class="r1"><img data-src="r3s1/img/ts09.png" alt=""><img data-src="r3s1/img/fg09.png" alt=""></div>
+<div class="r2"><img data-src="r3s1/img/fs09.png" alt=""><img data-src="r3s1/img/fr09.png" alt=""><img data-src="r3s1/img/fl09.png" alt=""></div></div><div class="card turn" id="r3s1-t10"><div class="th"><h3>T10 · 后刃</h3><span class="t">10:11:01.47 – 10:11:01.99（0.5 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.43 g</b></span><span>施压时机 <b>68%</b> 在滚落线前</span><span>Peak 点 <b>早</b> （滚落线前 23%）</span></div><div class="fl">左脚（前脚）Peak 早 · 施压时机 72%　｜　右脚（后脚）Peak 准 · 施压时机 40%</div>
+<div class="r1"><img data-src="r3s1/img/ts10.png" alt=""><img data-src="r3s1/img/fg10.png" alt=""></div>
+<div class="r2"><img data-src="r3s1/img/fs10.png" alt=""><img data-src="r3s1/img/fr10.png" alt=""><img data-src="r3s1/img/fl10.png" alt=""></div></div><div class="card turn" id="r3s1-t11"><div class="th"><h3>T11 · 前刃</h3><span class="t">10:11:01.99 – 10:11:03.43（1.4 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.86 g</b></span><span>施压时机 <b>24%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 17%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 29%　｜　右脚（后脚）Peak 晚 · 施压时机 19%</div>
+<div class="r1"><img data-src="r3s1/img/ts11.png" alt=""><img data-src="r3s1/img/fg11.png" alt=""></div>
+<div class="r2"><img data-src="r3s1/img/fs11.png" alt=""><img data-src="r3s1/img/fr11.png" alt=""><img data-src="r3s1/img/fl11.png" alt=""></div></div><div class="card turn" id="r3s1-t12"><div class="th"><h3>T12 · 后刃</h3><span class="t">10:11:03.43 – 10:11:05.23（1.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.77 g</b></span><span>施压时机 <b>24%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 49%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 28%　｜　右脚（后脚）Peak 晚 · 施压时机 17%</div>
+<div class="r1"><img data-src="r3s1/img/ts12.png" alt=""><img data-src="r3s1/img/fg12.png" alt=""></div>
+<div class="r2"><img data-src="r3s1/img/fs12.png" alt=""><img data-src="r3s1/img/fr12.png" alt=""><img data-src="r3s1/img/fl12.png" alt=""></div></div><div class="card turn" id="r3s1-t13"><div class="th"><h3>T13 · 前刃</h3><span class="t">10:11:05.23 – 10:11:05.95（0.7 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.78 g</b></span><span>施压时机 <b>18%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 39%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 40%　｜　右脚（后脚）Peak 晚 · 施压时机 3%</div>
+<div class="r1"><img data-src="r3s1/img/ts13.png" alt=""><img data-src="r3s1/img/fg13.png" alt=""></div>
+<div class="r2"><img data-src="r3s1/img/fs13.png" alt=""><img data-src="r3s1/img/fr13.png" alt=""><img data-src="r3s1/img/fl13.png" alt=""></div></div><div class="card turn" id="r3s1-t14"><div class="th"><h3>T14 · 后刃</h3><span class="t">10:11:05.95 – 10:11:07.43（1.5 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.21 g</b></span><span>施压时机 <b>42%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 44%　｜　右脚（后脚）Peak 准 · 施压时机 36%</div>
+<div class="r1"><img data-src="r3s1/img/ts14.png" alt=""><img data-src="r3s1/img/fg14.png" alt=""></div>
+<div class="r2"><img data-src="r3s1/img/fs14.png" alt=""><img data-src="r3s1/img/fr14.png" alt=""><img data-src="r3s1/img/fl14.png" alt=""></div></div><div class="card turn" id="r3s1-t15"><div class="th"><h3>T15 · 前刃</h3><span class="t">10:11:07.43 – 10:11:11.75（4.3 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.44 g</b></span><span>施压时机 <b>4%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 70%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 7%　｜　右脚（后脚）Peak 早 · 施压时机 5%</div>
+<div class="r1"><img data-src="r3s1/img/ts15.png" alt=""><img data-src="r3s1/img/fg15.png" alt=""></div>
+<div class="r2"><img data-src="r3s1/img/fs15.png" alt=""><img data-src="r3s1/img/fr15.png" alt=""><img data-src="r3s1/img/fl15.png" alt=""></div></div><div class="card turn" id="r3s1-t16"><div class="th"><h3>T16 · 后刃</h3><span class="t">10:11:11.75 – 10:11:13.39（1.6 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.38 g</b></span><span>施压时机 <b>22%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 59%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 22%　｜　右脚（后脚）Peak 晚 · 施压时机 14%</div>
+<div class="r1"><img data-src="r3s1/img/ts16.png" alt=""><img data-src="r3s1/img/fg16.png" alt=""></div>
+<div class="r2"><img data-src="r3s1/img/fs16.png" alt=""><img data-src="r3s1/img/fr16.png" alt=""><img data-src="r3s1/img/fl16.png" alt=""></div></div></section><section id="s-r4s1" class="run" hidden>
+<div class="card">第 4 趟，北京时间 10:18:16–10:18:46，传感器切出 23 个弯。这一趟的弯型、离心力、Peak 点用的是主链路自动选的左脚（前脚）。</div>
+<h2>整趟四张图</h2>
+<div class="card tabs"><input type="radio" name="m-r4s1" id="m0-r4s1" checked><input type="radio" name="m-r4s1" id="m1-r4s1"><input type="radio" name="m-r4s1" id="m2-r4s1"><input type="radio" name="m-r4s1" id="m3-r4s1">
+<div class="btns"><label for="m0-r4s1">① 离心力</label><label for="m1-r4s1">② Peak 点</label><label for="m2-r4s1">③ 施压时机</label><label for="m3-r4s1">④ 立刃稳定性</label></div>
+<div class="panes"><div class="pane p0"><img data-src="r4s1/img/run_force.png" alt=""></div><div class="pane p1"><img data-src="r4s1/img/run_peak.png" alt=""></div><div class="pane p2"><img data-src="r4s1/img/run_timing.png" alt=""></div><div class="pane p3"><img data-src="r4s1/img/run_stab.png" alt=""></div></div></div>
+<h2>逐弯核对</h2>
+<div class="cap">每个弯：上排 ① 弯型（俯视真实比例，蓝色深浅 = 离心力，黑横线 = 滚落线，绿点 = Peak 点）、② 左右脚离心力；下排 ③ 左右脚弯型、④ 左右脚旋转速率、⑤ 左右脚立刃角。Peak 点 = 立刃最高的那一刻（脚上 IMU 立刃角 3Hz）；施压时机 = 离心力有多少落在滚落线之前。</div>
+<div class="nav"><a href="#r4s1-t1">T1</a><a href="#r4s1-t2">T2</a><a href="#r4s1-t3">T3</a><a href="#r4s1-t4">T4</a><a href="#r4s1-t5">T5</a><a href="#r4s1-t6">T6</a><a href="#r4s1-t7">T7</a><a href="#r4s1-t8">T8</a><a href="#r4s1-t9">T9</a><a href="#r4s1-t10">T10</a><a href="#r4s1-t11">T11</a><a href="#r4s1-t12">T12</a><a href="#r4s1-t13">T13</a><a href="#r4s1-t14">T14</a><a href="#r4s1-t15">T15</a><a href="#r4s1-t16">T16</a><a href="#r4s1-t17">T17</a><a href="#r4s1-t18">T18</a><a href="#r4s1-t19">T19</a><a href="#r4s1-t20">T20</a><a href="#r4s1-t21">T21</a><a href="#r4s1-t22">T22</a><a href="#r4s1-t23">T23</a></div><div class="card turn" id="r4s1-t1"><div class="th"><h3>T1 · 前刃</h3><span class="t">10:18:16.07 – 10:18:16.87（0.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.41 g</b></span><span>施压时机 <b>47%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 47%　｜　右脚（后脚）Peak 准 · 施压时机 47%</div>
+<div class="r1"><img data-src="r4s1/img/ts01.png" alt=""><img data-src="r4s1/img/fg01.png" alt=""></div>
+<div class="r2"><img data-src="r4s1/img/fs01.png" alt=""><img data-src="r4s1/img/fr01.png" alt=""><img data-src="r4s1/img/fl01.png" alt=""></div></div><div class="card turn" id="r4s1-t2"><div class="th"><h3>T2 · 后刃</h3><span class="t">10:18:16.87 – 10:18:18.51（1.6 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.89 g</b></span><span>施压时机 <b>30%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 12%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 31%　｜　右脚（后脚）Peak 晚 · 施压时机 32%</div>
+<div class="r1"><img data-src="r4s1/img/ts02.png" alt=""><img data-src="r4s1/img/fg02.png" alt=""></div>
+<div class="r2"><img data-src="r4s1/img/fs02.png" alt=""><img data-src="r4s1/img/fr02.png" alt=""><img data-src="r4s1/img/fl02.png" alt=""></div></div><div class="card turn" id="r4s1-t3"><div class="th"><h3>T3 · 前刃</h3><span class="t">10:18:18.51 – 10:18:20.03（1.5 秒）</span></div>
+<div class="chips"><span>离心力 <b>2.17 g</b></span><span>施压时机 <b>36%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 43%　｜　右脚（后脚）Peak 准 · 施压时机 34%</div>
+<div class="r1"><img data-src="r4s1/img/ts03.png" alt=""><img data-src="r4s1/img/fg03.png" alt=""></div>
+<div class="r2"><img data-src="r4s1/img/fs03.png" alt=""><img data-src="r4s1/img/fr03.png" alt=""><img data-src="r4s1/img/fl03.png" alt=""></div></div><div class="card turn" id="r4s1-t4"><div class="th"><h3>T4 · 后刃</h3><span class="t">10:18:20.03 – 10:18:21.83（1.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.82 g</b></span><span>施压时机 <b>35%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 40%　｜　右脚（后脚）Peak 准 · 施压时机 34%</div>
+<div class="r1"><img data-src="r4s1/img/ts04.png" alt=""><img data-src="r4s1/img/fg04.png" alt=""></div>
+<div class="r2"><img data-src="r4s1/img/fs04.png" alt=""><img data-src="r4s1/img/fr04.png" alt=""><img data-src="r4s1/img/fl04.png" alt=""></div></div><div class="card turn" id="r4s1-t5"><div class="th"><h3>T5 · 前刃</h3><span class="t">10:18:21.83 – 10:18:23.39（1.6 秒）</span></div>
+<div class="chips"><span>离心力 <b>2.08 g</b></span><span>施压时机 <b>34%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 10%）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 38%　｜　右脚（后脚）Peak 准 · 施压时机 31%</div>
+<div class="r1"><img data-src="r4s1/img/ts05.png" alt=""><img data-src="r4s1/img/fg05.png" alt=""></div>
+<div class="r2"><img data-src="r4s1/img/fs05.png" alt=""><img data-src="r4s1/img/fr05.png" alt=""><img data-src="r4s1/img/fl05.png" alt=""></div></div><div class="card turn" id="r4s1-t6"><div class="th"><h3>T6 · 后刃</h3><span class="t">10:18:23.39 – 10:18:25.31（1.9 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.88 g</b></span><span>施压时机 <b>45%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 47%　｜　右脚（后脚）Peak 准 · 施压时机 44%</div>
+<div class="r1"><img data-src="r4s1/img/ts06.png" alt=""><img data-src="r4s1/img/fg06.png" alt=""></div>
+<div class="r2"><img data-src="r4s1/img/fs06.png" alt=""><img data-src="r4s1/img/fr06.png" alt=""><img data-src="r4s1/img/fl06.png" alt=""></div></div><div class="card turn" id="r4s1-t7"><div class="th"><h3>T7 · 前刃</h3><span class="t">10:18:25.31 – 10:18:26.67（1.4 秒）</span></div>
+<div class="chips"><span>离心力 <b>2.26 g</b></span><span>施压时机 <b>46%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 早 · 施压时机 53%　｜　右脚（后脚）Peak 准 · 施压时机 41%</div>
+<div class="r1"><img data-src="r4s1/img/ts07.png" alt=""><img data-src="r4s1/img/fg07.png" alt=""></div>
+<div class="r2"><img data-src="r4s1/img/fs07.png" alt=""><img data-src="r4s1/img/fr07.png" alt=""><img data-src="r4s1/img/fl07.png" alt=""></div></div><div class="card turn" id="r4s1-t8"><div class="th"><h3>T8 · 后刃</h3><span class="t">10:18:26.67 – 10:18:27.83（1.2 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.64 g</b></span><span>施压时机 <b>40%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 49%　｜　右脚（后脚）Peak 准 · 施压时机 40%</div>
+<div class="r1"><img data-src="r4s1/img/ts08.png" alt=""><img data-src="r4s1/img/fg08.png" alt=""></div>
+<div class="r2"><img data-src="r4s1/img/fs08.png" alt=""><img data-src="r4s1/img/fr08.png" alt=""><img data-src="r4s1/img/fl08.png" alt=""></div></div><div class="card turn" id="r4s1-t9"><div class="th"><h3>T9 · 前刃</h3><span class="t">10:18:27.83 – 10:18:28.59（0.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.70 g</b></span><span>施压时机 <b>32%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 11%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 43%　｜　右脚（后脚）Peak 晚 · 施压时机 29%</div>
+<div class="r1"><img data-src="r4s1/img/ts09.png" alt=""><img data-src="r4s1/img/fg09.png" alt=""></div>
+<div class="r2"><img data-src="r4s1/img/fs09.png" alt=""><img data-src="r4s1/img/fr09.png" alt=""><img data-src="r4s1/img/fl09.png" alt=""></div></div><div class="card turn" id="r4s1-t10"><div class="th"><h3>T10 · 后刃</h3><span class="t">10:18:28.59 – 10:18:29.63（1.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.55 g</b></span><span>施压时机 <b>24%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 19%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 32%　｜　右脚（后脚）Peak 晚 · 施压时机 22%</div>
+<div class="r1"><img data-src="r4s1/img/ts10.png" alt=""><img data-src="r4s1/img/fg10.png" alt=""></div>
+<div class="r2"><img data-src="r4s1/img/fs10.png" alt=""><img data-src="r4s1/img/fr10.png" alt=""><img data-src="r4s1/img/fl10.png" alt=""></div></div><div class="card turn" id="r4s1-t11"><div class="th"><h3>T11 · 前刃</h3><span class="t">10:18:29.63 – 10:18:30.43（0.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.87 g</b></span><span>施压时机 <b>30%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 45%　｜　右脚（后脚）Peak 晚 · 施压时机 31%</div>
+<div class="r1"><img data-src="r4s1/img/ts11.png" alt=""><img data-src="r4s1/img/fg11.png" alt=""></div>
+<div class="r2"><img data-src="r4s1/img/fs11.png" alt=""><img data-src="r4s1/img/fr11.png" alt=""><img data-src="r4s1/img/fl11.png" alt=""></div></div><div class="card turn" id="r4s1-t12"><div class="th"><h3>T12 · 后刃</h3><span class="t">10:18:30.43 – 10:18:31.43（1.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.59 g</b></span><span>施压时机 <b>20%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 16%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 23%　｜　右脚（后脚）Peak 晚 · 施压时机 15%</div>
+<div class="r1"><img data-src="r4s1/img/ts12.png" alt=""><img data-src="r4s1/img/fg12.png" alt=""></div>
+<div class="r2"><img data-src="r4s1/img/fs12.png" alt=""><img data-src="r4s1/img/fr12.png" alt=""><img data-src="r4s1/img/fl12.png" alt=""></div></div><div class="card turn" id="r4s1-t13"><div class="th"><h3>T13 · 前刃</h3><span class="t">10:18:31.43 – 10:18:32.23（0.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.88 g</b></span><span>施压时机 <b>32%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 42%　｜　右脚（后脚）Peak 晚 · 施压时机 26%</div>
+<div class="r1"><img data-src="r4s1/img/ts13.png" alt=""><img data-src="r4s1/img/fg13.png" alt=""></div>
+<div class="r2"><img data-src="r4s1/img/fs13.png" alt=""><img data-src="r4s1/img/fr13.png" alt=""><img data-src="r4s1/img/fl13.png" alt=""></div></div><div class="card turn" id="r4s1-t14"><div class="th"><h3>T14 · 后刃</h3><span class="t">10:18:32.23 – 10:18:33.15（0.9 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.74 g</b></span><span>施压时机 <b>14%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 26%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 14%　｜　右脚（后脚）Peak 晚 · 施压时机 11%</div>
+<div class="r1"><img data-src="r4s1/img/ts14.png" alt=""><img data-src="r4s1/img/fg14.png" alt=""></div>
+<div class="r2"><img data-src="r4s1/img/fs14.png" alt=""><img data-src="r4s1/img/fr14.png" alt=""><img data-src="r4s1/img/fl14.png" alt=""></div></div><div class="card turn" id="r4s1-t15"><div class="th"><h3>T15 · 前刃</h3><span class="t">10:18:33.15 – 10:18:33.91（0.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.79 g</b></span><span>施压时机 <b>31%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 11%）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 43%　｜　右脚（后脚）Peak 晚 · 施压时机 28%</div>
+<div class="r1"><img data-src="r4s1/img/ts15.png" alt=""><img data-src="r4s1/img/fg15.png" alt=""></div>
+<div class="r2"><img data-src="r4s1/img/fs15.png" alt=""><img data-src="r4s1/img/fr15.png" alt=""><img data-src="r4s1/img/fl15.png" alt=""></div></div><div class="card turn" id="r4s1-t16"><div class="th"><h3>T16 · 后刃</h3><span class="t">10:18:33.91 – 10:18:34.87（1.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>2.05 g</b></span><span>施压时机 <b>25%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 17%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 30%　｜　右脚（后脚）Peak 晚 · 施压时机 26%</div>
+<div class="r1"><img data-src="r4s1/img/ts16.png" alt=""><img data-src="r4s1/img/fg16.png" alt=""></div>
+<div class="r2"><img data-src="r4s1/img/fs16.png" alt=""><img data-src="r4s1/img/fr16.png" alt=""><img data-src="r4s1/img/fl16.png" alt=""></div></div><div class="card turn" id="r4s1-t17"><div class="th"><h3>T17 · 前刃</h3><span class="t">10:18:34.87 – 10:18:35.87（1.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.98 g</b></span><span>施压时机 <b>33%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 12%）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 45%　｜　右脚（后脚）Peak 准 · 施压时机 34%</div>
+<div class="r1"><img data-src="r4s1/img/ts17.png" alt=""><img data-src="r4s1/img/fg17.png" alt=""></div>
+<div class="r2"><img data-src="r4s1/img/fs17.png" alt=""><img data-src="r4s1/img/fr17.png" alt=""><img data-src="r4s1/img/fl17.png" alt=""></div></div><div class="card turn" id="r4s1-t18"><div class="th"><h3>T18 · 后刃</h3><span class="t">10:18:35.87 – 10:18:37.31（1.4 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.19 g</b></span><span>施压时机 <b>25%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 34%　｜　右脚（后脚）Peak 准 · 施压时机 26%</div>
+<div class="r1"><img data-src="r4s1/img/ts18.png" alt=""><img data-src="r4s1/img/fg18.png" alt=""></div>
+<div class="r2"><img data-src="r4s1/img/fs18.png" alt=""><img data-src="r4s1/img/fr18.png" alt=""><img data-src="r4s1/img/fl18.png" alt=""></div></div><div class="card turn" id="r4s1-t19"><div class="th"><h3>T19 · 前刃</h3><span class="t">10:18:37.31 – 10:18:38.79（1.5 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.67 g</b></span><span>施压时机 <b>36%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 45%　｜　右脚（后脚）Peak 准 · 施压时机 38%</div>
+<div class="r1"><img data-src="r4s1/img/ts19.png" alt=""><img data-src="r4s1/img/fg19.png" alt=""></div>
+<div class="r2"><img data-src="r4s1/img/fs19.png" alt=""><img data-src="r4s1/img/fr19.png" alt=""><img data-src="r4s1/img/fl19.png" alt=""></div></div><div class="card turn" id="r4s1-t20"><div class="th"><h3>T20 · 后刃</h3><span class="t">10:18:38.79 – 10:18:40.15（1.4 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.95 g</b></span><span>施压时机 <b>24%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 24%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 34%　｜　右脚（后脚）Peak 晚 · 施压时机 24%</div>
+<div class="r1"><img data-src="r4s1/img/ts20.png" alt=""><img data-src="r4s1/img/fg20.png" alt=""></div>
+<div class="r2"><img data-src="r4s1/img/fs20.png" alt=""><img data-src="r4s1/img/fr20.png" alt=""><img data-src="r4s1/img/fl20.png" alt=""></div></div><div class="card turn" id="r4s1-t21"><div class="th"><h3>T21 · 前刃</h3><span class="t">10:18:40.15 – 10:18:44.23（4.1 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.56 g</b></span><span>施压时机 <b>48%</b> 在滚落线前</span><span>Peak 点 <b>早</b> （滚落线前 21%）</span></div><div class="fl">左脚（前脚）Peak 早 · 施压时机 51%　｜　右脚（后脚）Peak 准 · 施压时机 47%</div>
+<div class="r1"><img data-src="r4s1/img/ts21.png" alt=""><img data-src="r4s1/img/fg21.png" alt=""></div>
+<div class="r2"><img data-src="r4s1/img/fs21.png" alt=""><img data-src="r4s1/img/fr21.png" alt=""><img data-src="r4s1/img/fl21.png" alt=""></div></div><div class="card turn" id="r4s1-t22"><div class="th"><h3>T22 · 后刃</h3><span class="t">10:18:44.23 – 10:18:45.71（1.5 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.99 g</b></span><span>施压时机 <b>11%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 29%　｜　右脚（后脚）Peak 准 · 施压时机 14%</div>
+<div class="r1"><img data-src="r4s1/img/ts22.png" alt=""><img data-src="r4s1/img/fg22.png" alt=""></div>
+<div class="r2"><img data-src="r4s1/img/fs22.png" alt=""><img data-src="r4s1/img/fr22.png" alt=""><img data-src="r4s1/img/fl22.png" alt=""></div></div><div class="card turn" id="r4s1-t23"><div class="th"><h3>T23 · 后刃</h3><span class="t">10:18:45.71 – 10:18:46.35（0.6 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.16 g</b></span><span>施压时机 <b>53%</b> 在滚落线前</span><span>Peak 点 <b>早</b> （滚落线前 62%）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 27%　｜　右脚（后脚）Peak 早 · 施压时机 75%</div>
+<div class="r1"><img data-src="r4s1/img/ts23.png" alt=""><img data-src="r4s1/img/fg23.png" alt=""></div>
+<div class="r2"><img data-src="r4s1/img/fs23.png" alt=""><img data-src="r4s1/img/fr23.png" alt=""><img data-src="r4s1/img/fl23.png" alt=""></div></div></section><section id="s-r5s2" class="run" hidden>
+<div class="card">第 5 趟，北京时间 10:24:28–10:25:07，传感器切出 21 个弯。这一趟的弯型、离心力、Peak 点用的是主链路自动选的左脚（前脚）。</div>
+<h2>整趟四张图</h2>
+<div class="card tabs"><input type="radio" name="m-r5s2" id="m0-r5s2" checked><input type="radio" name="m-r5s2" id="m1-r5s2"><input type="radio" name="m-r5s2" id="m2-r5s2"><input type="radio" name="m-r5s2" id="m3-r5s2">
+<div class="btns"><label for="m0-r5s2">① 离心力</label><label for="m1-r5s2">② Peak 点</label><label for="m2-r5s2">③ 施压时机</label><label for="m3-r5s2">④ 立刃稳定性</label></div>
+<div class="panes"><div class="pane p0"><img data-src="r5s2/img/run_force.png" alt=""></div><div class="pane p1"><img data-src="r5s2/img/run_peak.png" alt=""></div><div class="pane p2"><img data-src="r5s2/img/run_timing.png" alt=""></div><div class="pane p3"><img data-src="r5s2/img/run_stab.png" alt=""></div></div></div>
+<h2>逐弯核对</h2>
+<div class="cap">每个弯：上排 ① 弯型（俯视真实比例，蓝色深浅 = 离心力，黑横线 = 滚落线，绿点 = Peak 点）、② 左右脚离心力；下排 ③ 左右脚弯型、④ 左右脚旋转速率、⑤ 左右脚立刃角。Peak 点 = 立刃最高的那一刻（脚上 IMU 立刃角 3Hz）；施压时机 = 离心力有多少落在滚落线之前。</div>
+<div class="nav"><a href="#r5s2-t1">T1</a><a href="#r5s2-t2">T2</a><a href="#r5s2-t3">T3</a><a href="#r5s2-t4">T4</a><a href="#r5s2-t5">T5</a><a href="#r5s2-t6">T6</a><a href="#r5s2-t7">T7</a><a href="#r5s2-t8">T8</a><a href="#r5s2-t9">T9</a><a href="#r5s2-t10">T10</a><a href="#r5s2-t11">T11</a><a href="#r5s2-t12">T12</a><a href="#r5s2-t13">T13</a><a href="#r5s2-t14">T14</a><a href="#r5s2-t15">T15</a><a href="#r5s2-t16">T16</a><a href="#r5s2-t17">T17</a><a href="#r5s2-t18">T18</a><a href="#r5s2-t19">T19</a><a href="#r5s2-t20">T20</a><a href="#r5s2-t21">T21</a></div><div class="card turn" id="r5s2-t1"><div class="th"><h3>T1 · 前刃</h3><span class="t">10:24:28.03 – 10:24:34.91（6.9 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.65 g</b></span><span>施压时机 <b>9%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 58%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 15%　｜　右脚（后脚）Peak 晚 · 施压时机 7%</div>
+<div class="r1"><img data-src="r5s2/img/ts01.png" alt=""><img data-src="r5s2/img/fg01.png" alt=""></div>
+<div class="r2"><img data-src="r5s2/img/fs01.png" alt=""><img data-src="r5s2/img/fr01.png" alt=""><img data-src="r5s2/img/fl01.png" alt=""></div></div><div class="card turn" id="r5s2-t2"><div class="th"><h3>T2 · 后刃</h3><span class="t">10:24:34.91 – 10:24:36.87（2.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.79 g</b></span><span>施压时机 <b>37%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 37%　｜　右脚（后脚）Peak 晚 · 施压时机 37%</div>
+<div class="r1"><img data-src="r5s2/img/ts02.png" alt=""><img data-src="r5s2/img/fg02.png" alt=""></div>
+<div class="r2"><img data-src="r5s2/img/fs02.png" alt=""><img data-src="r5s2/img/fr02.png" alt=""><img data-src="r5s2/img/fl02.png" alt=""></div></div><div class="card turn" id="r5s2-t3"><div class="th"><h3>T3 · 前刃</h3><span class="t">10:24:36.87 – 10:24:38.51（1.6 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.87 g</b></span><span>施压时机 <b>39%</b> 在滚落线前</span><span>Peak 点 <b>早</b> （滚落线前 12%）</span></div><div class="fl">左脚（前脚）Peak 早 · 施压时机 46%　｜　右脚（后脚）Peak 早 · 施压时机 40%</div>
+<div class="r1"><img data-src="r5s2/img/ts03.png" alt=""><img data-src="r5s2/img/fg03.png" alt=""></div>
+<div class="r2"><img data-src="r5s2/img/fs03.png" alt=""><img data-src="r5s2/img/fr03.png" alt=""><img data-src="r5s2/img/fl03.png" alt=""></div></div><div class="card turn" id="r5s2-t4"><div class="th"><h3>T4 · 后刃</h3><span class="t">10:24:38.51 – 10:24:40.47（2.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.58 g</b></span><span>施压时机 <b>39%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 46%　｜　右脚（后脚）Peak 准 · 施压时机 39%</div>
+<div class="r1"><img data-src="r5s2/img/ts04.png" alt=""><img data-src="r5s2/img/fg04.png" alt=""></div>
+<div class="r2"><img data-src="r5s2/img/fs04.png" alt=""><img data-src="r5s2/img/fr04.png" alt=""><img data-src="r5s2/img/fl04.png" alt=""></div></div><div class="card turn" id="r5s2-t5"><div class="th"><h3>T5 · 前刃</h3><span class="t">10:24:40.47 – 10:24:42.19（1.7 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.78 g</b></span><span>施压时机 <b>41%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 48%　｜　右脚（后脚）Peak 准 · 施压时机 40%</div>
+<div class="r1"><img data-src="r5s2/img/ts05.png" alt=""><img data-src="r5s2/img/fg05.png" alt=""></div>
+<div class="r2"><img data-src="r5s2/img/fs05.png" alt=""><img data-src="r5s2/img/fr05.png" alt=""><img data-src="r5s2/img/fl05.png" alt=""></div></div><div class="card turn" id="r5s2-t6"><div class="th"><h3>T6 · 后刃</h3><span class="t">10:24:42.19 – 10:24:44.03（1.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.72 g</b></span><span>施压时机 <b>46%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 54%　｜　右脚（后脚）Peak 准 · 施压时机 47%</div>
+<div class="r1"><img data-src="r5s2/img/ts06.png" alt=""><img data-src="r5s2/img/fg06.png" alt=""></div>
+<div class="r2"><img data-src="r5s2/img/fs06.png" alt=""><img data-src="r5s2/img/fr06.png" alt=""><img data-src="r5s2/img/fl06.png" alt=""></div></div><div class="card turn" id="r5s2-t7"><div class="th"><h3>T7 · 前刃</h3><span class="t">10:24:44.03 – 10:24:45.71（1.7 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.83 g</b></span><span>施压时机 <b>34%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 早 · 施压时机 40%　｜　右脚（后脚）Peak 准 · 施压时机 35%</div>
+<div class="r1"><img data-src="r5s2/img/ts07.png" alt=""><img data-src="r5s2/img/fg07.png" alt=""></div>
+<div class="r2"><img data-src="r5s2/img/fs07.png" alt=""><img data-src="r5s2/img/fr07.png" alt=""><img data-src="r5s2/img/fl07.png" alt=""></div></div><div class="card turn" id="r5s2-t8"><div class="th"><h3>T8 · 后刃</h3><span class="t">10:24:45.71 – 10:24:47.79（2.1 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.63 g</b></span><span>施压时机 <b>45%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 49%　｜　右脚（后脚）Peak 准 · 施压时机 46%</div>
+<div class="r1"><img data-src="r5s2/img/ts08.png" alt=""><img data-src="r5s2/img/fg08.png" alt=""></div>
+<div class="r2"><img data-src="r5s2/img/fs08.png" alt=""><img data-src="r5s2/img/fr08.png" alt=""><img data-src="r5s2/img/fl08.png" alt=""></div></div><div class="card turn" id="r5s2-t9"><div class="th"><h3>T9 · 前刃</h3><span class="t">10:24:47.79 – 10:24:49.11（1.3 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.22 g</b></span><span>施压时机 <b>31%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 40%　｜　右脚（后脚）Peak 晚 · 施压时机 32%</div>
+<div class="r1"><img data-src="r5s2/img/ts09.png" alt=""><img data-src="r5s2/img/fg09.png" alt=""></div>
+<div class="r2"><img data-src="r5s2/img/fs09.png" alt=""><img data-src="r5s2/img/fr09.png" alt=""><img data-src="r5s2/img/fl09.png" alt=""></div></div><div class="card turn" id="r5s2-t10"><div class="th"><h3>T10 · 后刃</h3><span class="t">10:24:49.11 – 10:24:49.91（0.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.96 g</b></span><span>施压时机 <b>22%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 25%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 35%　｜　右脚（后脚）Peak 晚 · 施压时机 24%</div>
+<div class="r1"><img data-src="r5s2/img/ts10.png" alt=""><img data-src="r5s2/img/fg10.png" alt=""></div>
+<div class="r2"><img data-src="r5s2/img/fs10.png" alt=""><img data-src="r5s2/img/fr10.png" alt=""><img data-src="r5s2/img/fl10.png" alt=""></div></div><div class="card turn" id="r5s2-t11"><div class="th"><h3>T11 · 前刃</h3><span class="t">10:24:49.91 – 10:24:50.99（1.1 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.19 g</b></span><span>施压时机 <b>34%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 15%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 43%　｜　右脚（后脚）Peak 晚 · 施压时机 36%</div>
+<div class="r1"><img data-src="r5s2/img/ts11.png" alt=""><img data-src="r5s2/img/fg11.png" alt=""></div>
+<div class="r2"><img data-src="r5s2/img/fs11.png" alt=""><img data-src="r5s2/img/fr11.png" alt=""><img data-src="r5s2/img/fl11.png" alt=""></div></div><div class="card turn" id="r5s2-t12"><div class="th"><h3>T12 · 后刃</h3><span class="t">10:24:50.99 – 10:24:51.95（1.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.57 g</b></span><span>施压时机 <b>35%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 12%）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 43%　｜　右脚（后脚）Peak 晚 · 施压时机 42%</div>
+<div class="r1"><img data-src="r5s2/img/ts12.png" alt=""><img data-src="r5s2/img/fg12.png" alt=""></div>
+<div class="r2"><img data-src="r5s2/img/fs12.png" alt=""><img data-src="r5s2/img/fr12.png" alt=""><img data-src="r5s2/img/fl12.png" alt=""></div></div><div class="card turn" id="r5s2-t13"><div class="th"><h3>T13 · 前刃</h3><span class="t">10:24:51.95 – 10:24:52.75（0.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.97 g</b></span><span>施压时机 <b>29%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 15%）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 43%　｜　右脚（后脚）Peak 晚 · 施压时机 27%</div>
+<div class="r1"><img data-src="r5s2/img/ts13.png" alt=""><img data-src="r5s2/img/fg13.png" alt=""></div>
+<div class="r2"><img data-src="r5s2/img/fs13.png" alt=""><img data-src="r5s2/img/fr13.png" alt=""><img data-src="r5s2/img/fl13.png" alt=""></div></div><div class="card turn" id="r5s2-t14"><div class="th"><h3>T14 · 后刃</h3><span class="t">10:24:52.75 – 10:24:53.75（1.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.66 g</b></span><span>施压时机 <b>12%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 32%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 19%　｜　右脚（后脚）Peak 晚 · 施压时机 15%</div>
+<div class="r1"><img data-src="r5s2/img/ts14.png" alt=""><img data-src="r5s2/img/fg14.png" alt=""></div>
+<div class="r2"><img data-src="r5s2/img/fs14.png" alt=""><img data-src="r5s2/img/fr14.png" alt=""><img data-src="r5s2/img/fl14.png" alt=""></div></div><div class="card turn" id="r5s2-t15"><div class="th"><h3>T15 · 前刃</h3><span class="t">10:24:53.75 – 10:24:54.55（0.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.94 g</b></span><span>施压时机 <b>29%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 40%　｜　右脚（后脚）Peak 准 · 施压时机 22%</div>
+<div class="r1"><img data-src="r5s2/img/ts15.png" alt=""><img data-src="r5s2/img/fg15.png" alt=""></div>
+<div class="r2"><img data-src="r5s2/img/fs15.png" alt=""><img data-src="r5s2/img/fr15.png" alt=""><img data-src="r5s2/img/fl15.png" alt=""></div></div><div class="card turn" id="r5s2-t16"><div class="th"><h3>T16 · 后刃</h3><span class="t">10:24:54.55 – 10:24:55.67（1.1 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.79 g</b></span><span>施压时机 <b>23%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 14%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 33%　｜　右脚（后脚）Peak 晚 · 施压时机 27%</div>
+<div class="r1"><img data-src="r5s2/img/ts16.png" alt=""><img data-src="r5s2/img/fg16.png" alt=""></div>
+<div class="r2"><img data-src="r5s2/img/fs16.png" alt=""><img data-src="r5s2/img/fr16.png" alt=""><img data-src="r5s2/img/fl16.png" alt=""></div></div><div class="card turn" id="r5s2-t17"><div class="th"><h3>T17 · 前刃</h3><span class="t">10:24:55.67 – 10:24:56.55（0.9 秒）</span></div>
+<div class="chips"><span>离心力 <b>2.16 g</b></span><span>施压时机 <b>33%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 53%　｜　右脚（后脚）Peak 准 · 施压时机 37%</div>
+<div class="r1"><img data-src="r5s2/img/ts17.png" alt=""><img data-src="r5s2/img/fg17.png" alt=""></div>
+<div class="r2"><img data-src="r5s2/img/fs17.png" alt=""><img data-src="r5s2/img/fr17.png" alt=""><img data-src="r5s2/img/fl17.png" alt=""></div></div><div class="card turn" id="r5s2-t18"><div class="th"><h3>T18 · 后刃</h3><span class="t">10:24:56.55 – 10:24:58.63（2.1 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.73 g</b></span><span>施压时机 <b>45%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 13%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 47%　｜　右脚（后脚）Peak 晚 · 施压时机 45%</div>
+<div class="r1"><img data-src="r5s2/img/ts18.png" alt=""><img data-src="r5s2/img/fg18.png" alt=""></div>
+<div class="r2"><img data-src="r5s2/img/fs18.png" alt=""><img data-src="r5s2/img/fr18.png" alt=""><img data-src="r5s2/img/fl18.png" alt=""></div></div><div class="card turn" id="r5s2-t19"><div class="th"><h3>T19 · 前刃</h3><span class="t">10:24:58.63 – 10:25:02.59（4.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.62 g</b></span><span>施压时机 <b>53%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 30%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 56%　｜　右脚（后脚）Peak 晚 · 施压时机 54%</div>
+<div class="r1"><img data-src="r5s2/img/ts19.png" alt=""><img data-src="r5s2/img/fg19.png" alt=""></div>
+<div class="r2"><img data-src="r5s2/img/fs19.png" alt=""><img data-src="r5s2/img/fr19.png" alt=""><img data-src="r5s2/img/fl19.png" alt=""></div></div><div class="card turn" id="r5s2-t20"><div class="th"><h3>T20 · 后刃</h3><span class="t">10:25:02.59 – 10:25:03.95（1.4 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.94 g</b></span><span>施压时机 <b>42%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 55%　｜　右脚（后脚）Peak 晚 · 施压时机 28%</div>
+<div class="r1"><img data-src="r5s2/img/ts20.png" alt=""><img data-src="r5s2/img/fg20.png" alt=""></div>
+<div class="r2"><img data-src="r5s2/img/fs20.png" alt=""><img data-src="r5s2/img/fr20.png" alt=""><img data-src="r5s2/img/fl20.png" alt=""></div></div><div class="card turn" id="r5s2-t21"><div class="th"><h3>T21 · 后刃</h3><span class="t">10:25:03.95 – 10:25:07.39（3.4 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.23 g</b></span><span>施压时机 <b>33%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 33%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 27%　｜　右脚（后脚）Peak 早 · 施压时机 40%</div>
+<div class="r1"><img data-src="r5s2/img/ts21.png" alt=""><img data-src="r5s2/img/fg21.png" alt=""></div>
+<div class="r2"><img data-src="r5s2/img/fs21.png" alt=""><img data-src="r5s2/img/fr21.png" alt=""><img data-src="r5s2/img/fl21.png" alt=""></div></div></section><section id="s-r6s1" class="run" hidden>
+<div class="card">第 6 趟，北京时间 10:31:02–10:31:36，传感器切出 23 个弯。这一趟的弯型、离心力、Peak 点用的是主链路自动选的左脚（前脚）。</div>
+<h2>整趟四张图</h2>
+<div class="card tabs"><input type="radio" name="m-r6s1" id="m0-r6s1" checked><input type="radio" name="m-r6s1" id="m1-r6s1"><input type="radio" name="m-r6s1" id="m2-r6s1"><input type="radio" name="m-r6s1" id="m3-r6s1">
+<div class="btns"><label for="m0-r6s1">① 离心力</label><label for="m1-r6s1">② Peak 点</label><label for="m2-r6s1">③ 施压时机</label><label for="m3-r6s1">④ 立刃稳定性</label></div>
+<div class="panes"><div class="pane p0"><img data-src="r6s1/img/run_force.png" alt=""></div><div class="pane p1"><img data-src="r6s1/img/run_peak.png" alt=""></div><div class="pane p2"><img data-src="r6s1/img/run_timing.png" alt=""></div><div class="pane p3"><img data-src="r6s1/img/run_stab.png" alt=""></div></div></div>
+<h2>逐弯核对</h2>
+<div class="cap">每个弯：上排 ① 弯型（俯视真实比例，蓝色深浅 = 离心力，黑横线 = 滚落线，绿点 = Peak 点）、② 左右脚离心力；下排 ③ 左右脚弯型、④ 左右脚旋转速率、⑤ 左右脚立刃角。Peak 点 = 立刃最高的那一刻（脚上 IMU 立刃角 3Hz）；施压时机 = 离心力有多少落在滚落线之前。</div>
+<div class="nav"><a href="#r6s1-t1">T1</a><a href="#r6s1-t2">T2</a><a href="#r6s1-t3">T3</a><a href="#r6s1-t4">T4</a><a href="#r6s1-t5">T5</a><a href="#r6s1-t6">T6</a><a href="#r6s1-t7">T7</a><a href="#r6s1-t8">T8</a><a href="#r6s1-t9">T9</a><a href="#r6s1-t10">T10</a><a href="#r6s1-t11">T11</a><a href="#r6s1-t12">T12</a><a href="#r6s1-t13">T13</a><a href="#r6s1-t14">T14</a><a href="#r6s1-t15">T15</a><a href="#r6s1-t16">T16</a><a href="#r6s1-t17">T17</a><a href="#r6s1-t18">T18</a><a href="#r6s1-t19">T19</a><a href="#r6s1-t20">T20</a><a href="#r6s1-t21">T21</a><a href="#r6s1-t22">T22</a><a href="#r6s1-t23">T23</a></div><div class="card turn" id="r6s1-t1"><div class="th"><h3>T1 · 前刃</h3><span class="t">10:31:02.31 – 10:31:04.43（2.1 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.18 g</b></span><span>施压时机 <b>23%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 21%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 25%　｜　右脚（后脚）Peak 晚 · 施压时机 24%</div>
+<div class="r1"><img data-src="r6s1/img/ts01.png" alt=""><img data-src="r6s1/img/fg01.png" alt=""></div>
+<div class="r2"><img data-src="r6s1/img/fs01.png" alt=""><img data-src="r6s1/img/fr01.png" alt=""><img data-src="r6s1/img/fl01.png" alt=""></div></div><div class="card turn" id="r6s1-t2"><div class="th"><h3>T2 · 后刃</h3><span class="t">10:31:04.43 – 10:31:06.23（1.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>2.05 g</b></span><span>施压时机 <b>48%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 52%　｜　右脚（后脚）Peak 准 · 施压时机 44%</div>
+<div class="r1"><img data-src="r6s1/img/ts02.png" alt=""><img data-src="r6s1/img/fg02.png" alt=""></div>
+<div class="r2"><img data-src="r6s1/img/fs02.png" alt=""><img data-src="r6s1/img/fr02.png" alt=""><img data-src="r6s1/img/fl02.png" alt=""></div></div><div class="card turn" id="r6s1-t3"><div class="th"><h3>T3 · 前刃</h3><span class="t">10:31:06.23 – 10:31:07.95（1.7 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.78 g</b></span><span>施压时机 <b>33%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 23%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 38%　｜　右脚（后脚）Peak 晚 · 施压时机 34%</div>
+<div class="r1"><img data-src="r6s1/img/ts03.png" alt=""><img data-src="r6s1/img/fg03.png" alt=""></div>
+<div class="r2"><img data-src="r6s1/img/fs03.png" alt=""><img data-src="r6s1/img/fr03.png" alt=""><img data-src="r6s1/img/fl03.png" alt=""></div></div><div class="card turn" id="r6s1-t4"><div class="th"><h3>T4 · 后刃</h3><span class="t">10:31:07.95 – 10:31:10.03（2.1 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.99 g</b></span><span>施压时机 <b>38%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 38%　｜　右脚（后脚）Peak 准 · 施压时机 39%</div>
+<div class="r1"><img data-src="r6s1/img/ts04.png" alt=""><img data-src="r6s1/img/fg04.png" alt=""></div>
+<div class="r2"><img data-src="r6s1/img/fs04.png" alt=""><img data-src="r6s1/img/fr04.png" alt=""><img data-src="r6s1/img/fl04.png" alt=""></div></div><div class="card turn" id="r6s1-t5"><div class="th"><h3>T5 · 前刃</h3><span class="t">10:31:10.03 – 10:31:11.59（1.6 秒）</span></div>
+<div class="chips"><span>离心力 <b>2.27 g</b></span><span>施压时机 <b>36%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 48%　｜　右脚（后脚）Peak 准 · 施压时机 37%</div>
+<div class="r1"><img data-src="r6s1/img/ts05.png" alt=""><img data-src="r6s1/img/fg05.png" alt=""></div>
+<div class="r2"><img data-src="r6s1/img/fs05.png" alt=""><img data-src="r6s1/img/fr05.png" alt=""><img data-src="r6s1/img/fl05.png" alt=""></div></div><div class="card turn" id="r6s1-t6"><div class="th"><h3>T6 · 后刃</h3><span class="t">10:31:11.59 – 10:31:13.51（1.9 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.66 g</b></span><span>施压时机 <b>44%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 49%　｜　右脚（后脚）Peak 早 · 施压时机 43%</div>
+<div class="r1"><img data-src="r6s1/img/ts06.png" alt=""><img data-src="r6s1/img/fg06.png" alt=""></div>
+<div class="r2"><img data-src="r6s1/img/fs06.png" alt=""><img data-src="r6s1/img/fr06.png" alt=""><img data-src="r6s1/img/fl06.png" alt=""></div></div><div class="card turn" id="r6s1-t7"><div class="th"><h3>T7 · 前刃</h3><span class="t">10:31:13.51 – 10:31:15.07（1.6 秒）</span></div>
+<div class="chips"><span>离心力 <b>2.18 g</b></span><span>施压时机 <b>37%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 44%　｜　右脚（后脚）Peak 准 · 施压时机 33%</div>
+<div class="r1"><img data-src="r6s1/img/ts07.png" alt=""><img data-src="r6s1/img/fg07.png" alt=""></div>
+<div class="r2"><img data-src="r6s1/img/fs07.png" alt=""><img data-src="r6s1/img/fr07.png" alt=""><img data-src="r6s1/img/fl07.png" alt=""></div></div><div class="card turn" id="r6s1-t8"><div class="th"><h3>T8 · 后刃</h3><span class="t">10:31:15.07 – 10:31:16.87（1.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.72 g</b></span><span>施压时机 <b>49%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 13%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 53%　｜　右脚（后脚）Peak 晚 · 施压时机 48%</div>
+<div class="r1"><img data-src="r6s1/img/ts08.png" alt=""><img data-src="r6s1/img/fg08.png" alt=""></div>
+<div class="r2"><img data-src="r6s1/img/fs08.png" alt=""><img data-src="r6s1/img/fr08.png" alt=""><img data-src="r6s1/img/fl08.png" alt=""></div></div><div class="card turn" id="r6s1-t9"><div class="th"><h3>T9 · 前刃</h3><span class="t">10:31:16.87 – 10:31:18.19（1.3 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.79 g</b></span><span>施压时机 <b>34%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 43%　｜　右脚（后脚）Peak 准 · 施压时机 33%</div>
+<div class="r1"><img data-src="r6s1/img/ts09.png" alt=""><img data-src="r6s1/img/fg09.png" alt=""></div>
+<div class="r2"><img data-src="r6s1/img/fs09.png" alt=""><img data-src="r6s1/img/fr09.png" alt=""><img data-src="r6s1/img/fl09.png" alt=""></div></div><div class="card turn" id="r6s1-t10"><div class="th"><h3>T10 · 后刃</h3><span class="t">10:31:18.19 – 10:31:19.39（1.2 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.44 g</b></span><span>施压时机 <b>25%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 30%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 31%　｜　右脚（后脚）Peak 晚 · 施压时机 23%</div>
+<div class="r1"><img data-src="r6s1/img/ts10.png" alt=""><img data-src="r6s1/img/fg10.png" alt=""></div>
+<div class="r2"><img data-src="r6s1/img/fs10.png" alt=""><img data-src="r6s1/img/fr10.png" alt=""><img data-src="r6s1/img/fl10.png" alt=""></div></div><div class="card turn" id="r6s1-t11"><div class="th"><h3>T11 · 前刃</h3><span class="t">10:31:19.39 – 10:31:20.15（0.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.62 g</b></span><span>施压时机 <b>31%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 50%　｜　右脚（后脚）Peak 准 · 施压时机 26%</div>
+<div class="r1"><img data-src="r6s1/img/ts11.png" alt=""><img data-src="r6s1/img/fg11.png" alt=""></div>
+<div class="r2"><img data-src="r6s1/img/fs11.png" alt=""><img data-src="r6s1/img/fr11.png" alt=""><img data-src="r6s1/img/fl11.png" alt=""></div></div><div class="card turn" id="r6s1-t12"><div class="th"><h3>T12 · 后刃</h3><span class="t">10:31:20.15 – 10:31:21.11（1.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.60 g</b></span><span>施压时机 <b>17%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 29%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 27%　｜　右脚（后脚）Peak 晚 · 施压时机 21%</div>
+<div class="r1"><img data-src="r6s1/img/ts12.png" alt=""><img data-src="r6s1/img/fg12.png" alt=""></div>
+<div class="r2"><img data-src="r6s1/img/fs12.png" alt=""><img data-src="r6s1/img/fr12.png" alt=""><img data-src="r6s1/img/fl12.png" alt=""></div></div><div class="card turn" id="r6s1-t13"><div class="th"><h3>T13 · 前刃</h3><span class="t">10:31:21.11 – 10:31:21.95（0.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.47 g</b></span><span>施压时机 <b>33%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 49%　｜　右脚（后脚）Peak 准 · 施压时机 33%</div>
+<div class="r1"><img data-src="r6s1/img/ts13.png" alt=""><img data-src="r6s1/img/fg13.png" alt=""></div>
+<div class="r2"><img data-src="r6s1/img/fs13.png" alt=""><img data-src="r6s1/img/fr13.png" alt=""><img data-src="r6s1/img/fl13.png" alt=""></div></div><div class="card turn" id="r6s1-t14"><div class="th"><h3>T14 · 后刃</h3><span class="t">10:31:21.95 – 10:31:22.87（0.9 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.39 g</b></span><span>施压时机 <b>21%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 26%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 28%　｜　右脚（后脚）Peak 晚 · 施压时机 17%</div>
+<div class="r1"><img data-src="r6s1/img/ts14.png" alt=""><img data-src="r6s1/img/fg14.png" alt=""></div>
+<div class="r2"><img data-src="r6s1/img/fs14.png" alt=""><img data-src="r6s1/img/fr14.png" alt=""><img data-src="r6s1/img/fl14.png" alt=""></div></div><div class="card turn" id="r6s1-t15"><div class="th"><h3>T15 · 前刃</h3><span class="t">10:31:22.87 – 10:31:23.63（0.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.75 g</b></span><span>施压时机 <b>32%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 47%　｜　右脚（后脚）Peak 准 · 施压时机 27%</div>
+<div class="r1"><img data-src="r6s1/img/ts15.png" alt=""><img data-src="r6s1/img/fg15.png" alt=""></div>
+<div class="r2"><img data-src="r6s1/img/fs15.png" alt=""><img data-src="r6s1/img/fr15.png" alt=""><img data-src="r6s1/img/fl15.png" alt=""></div></div><div class="card turn" id="r6s1-t16"><div class="th"><h3>T16 · 后刃</h3><span class="t">10:31:23.63 – 10:31:24.59（1.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.56 g</b></span><span>施压时机 <b>18%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 21%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 25%　｜　右脚（后脚）Peak 晚 · 施压时机 16%</div>
+<div class="r1"><img data-src="r6s1/img/ts16.png" alt=""><img data-src="r6s1/img/fg16.png" alt=""></div>
+<div class="r2"><img data-src="r6s1/img/fs16.png" alt=""><img data-src="r6s1/img/fr16.png" alt=""><img data-src="r6s1/img/fl16.png" alt=""></div></div><div class="card turn" id="r6s1-t17"><div class="th"><h3>T17 · 前刃</h3><span class="t">10:31:24.59 – 10:31:25.43（0.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.58 g</b></span><span>施压时机 <b>32%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 14%）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 42%　｜　右脚（后脚）Peak 晚 · 施压时机 29%</div>
+<div class="r1"><img data-src="r6s1/img/ts17.png" alt=""><img data-src="r6s1/img/fg17.png" alt=""></div>
+<div class="r2"><img data-src="r6s1/img/fs17.png" alt=""><img data-src="r6s1/img/fr17.png" alt=""><img data-src="r6s1/img/fl17.png" alt=""></div></div><div class="card turn" id="r6s1-t18"><div class="th"><h3>T18 · 后刃</h3><span class="t">10:31:25.43 – 10:31:26.31（0.9 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.74 g</b></span><span>施压时机 <b>21%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 23%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 28%　｜　右脚（后脚）Peak 晚 · 施压时机 24%</div>
+<div class="r1"><img data-src="r6s1/img/ts18.png" alt=""><img data-src="r6s1/img/fg18.png" alt=""></div>
+<div class="r2"><img data-src="r6s1/img/fs18.png" alt=""><img data-src="r6s1/img/fr18.png" alt=""><img data-src="r6s1/img/fl18.png" alt=""></div></div><div class="card turn" id="r6s1-t19"><div class="th"><h3>T19 · 前刃</h3><span class="t">10:31:26.31 – 10:31:27.39（1.1 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.63 g</b></span><span>施压时机 <b>38%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 48%　｜　右脚（后脚）Peak 准 · 施压时机 40%</div>
+<div class="r1"><img data-src="r6s1/img/ts19.png" alt=""><img data-src="r6s1/img/fg19.png" alt=""></div>
+<div class="r2"><img data-src="r6s1/img/fs19.png" alt=""><img data-src="r6s1/img/fr19.png" alt=""><img data-src="r6s1/img/fl19.png" alt=""></div></div><div class="card turn" id="r6s1-t20"><div class="th"><h3>T20 · 后刃</h3><span class="t">10:31:27.39 – 10:31:28.47（1.1 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.24 g</b></span><span>施压时机 <b>32%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 19%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 41%　｜　右脚（后脚）Peak 晚 · 施压时机 34%</div>
+<div class="r1"><img data-src="r6s1/img/ts20.png" alt=""><img data-src="r6s1/img/fg20.png" alt=""></div>
+<div class="r2"><img data-src="r6s1/img/fs20.png" alt=""><img data-src="r6s1/img/fr20.png" alt=""><img data-src="r6s1/img/fl20.png" alt=""></div></div><div class="card turn" id="r6s1-t21"><div class="th"><h3>T21 · 前刃</h3><span class="t">10:31:28.47 – 10:31:31.79（3.3 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.56 g</b></span><span>施压时机 <b>54%</b> 在滚落线前</span><span>Peak 点 <b>早</b> （滚落线前 27%）</span></div><div class="fl">左脚（前脚）Peak 早 · 施压时机 57%　｜　右脚（后脚）Peak 早 · 施压时机 54%</div>
+<div class="r1"><img data-src="r6s1/img/ts21.png" alt=""><img data-src="r6s1/img/fg21.png" alt=""></div>
+<div class="r2"><img data-src="r6s1/img/fs21.png" alt=""><img data-src="r6s1/img/fr21.png" alt=""><img data-src="r6s1/img/fl21.png" alt=""></div></div><div class="card turn" id="r6s1-t22"><div class="th"><h3>T22 · 后刃</h3><span class="t">10:31:31.79 – 10:31:33.23（1.4 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.81 g</b></span><span>施压时机 <b>43%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 63%　｜　右脚（后脚）Peak 准 · 施压时机 35%</div>
+<div class="r1"><img data-src="r6s1/img/ts22.png" alt=""><img data-src="r6s1/img/fg22.png" alt=""></div>
+<div class="r2"><img data-src="r6s1/img/fs22.png" alt=""><img data-src="r6s1/img/fr22.png" alt=""><img data-src="r6s1/img/fl22.png" alt=""></div></div><div class="card turn" id="r6s1-t23"><div class="th"><h3>T23 · 后刃</h3><span class="t">10:31:33.23 – 10:31:36.27（3.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.30 g</b></span><span>施压时机 <b>39%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 58%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 31%　｜　右脚（后脚）Peak 早 · 施压时机 49%</div>
+<div class="r1"><img data-src="r6s1/img/ts23.png" alt=""><img data-src="r6s1/img/fg23.png" alt=""></div>
+<div class="r2"><img data-src="r6s1/img/fs23.png" alt=""><img data-src="r6s1/img/fr23.png" alt=""><img data-src="r6s1/img/fl23.png" alt=""></div></div></section><section id="s-r7s1" class="run" hidden>
+<div class="card">第 7 趟，北京时间 10:39:58–10:40:34，传感器切出 19 个弯。这一趟的弯型、离心力、Peak 点用的是主链路自动选的左脚（前脚）。</div>
+<h2>整趟四张图</h2>
+<div class="card tabs"><input type="radio" name="m-r7s1" id="m0-r7s1" checked><input type="radio" name="m-r7s1" id="m1-r7s1"><input type="radio" name="m-r7s1" id="m2-r7s1"><input type="radio" name="m-r7s1" id="m3-r7s1">
+<div class="btns"><label for="m0-r7s1">① 离心力</label><label for="m1-r7s1">② Peak 点</label><label for="m2-r7s1">③ 施压时机</label><label for="m3-r7s1">④ 立刃稳定性</label></div>
+<div class="panes"><div class="pane p0"><img data-src="r7s1/img/run_force.png" alt=""></div><div class="pane p1"><img data-src="r7s1/img/run_peak.png" alt=""></div><div class="pane p2"><img data-src="r7s1/img/run_timing.png" alt=""></div><div class="pane p3"><img data-src="r7s1/img/run_stab.png" alt=""></div></div></div>
+<h2>逐弯核对</h2>
+<div class="cap">每个弯：上排 ① 弯型（俯视真实比例，蓝色深浅 = 离心力，黑横线 = 滚落线，绿点 = Peak 点）、② 左右脚离心力；下排 ③ 左右脚弯型、④ 左右脚旋转速率、⑤ 左右脚立刃角。Peak 点 = 立刃最高的那一刻（脚上 IMU 立刃角 3Hz）；施压时机 = 离心力有多少落在滚落线之前。</div>
+<div class="nav"><a href="#r7s1-t1">T1</a><a href="#r7s1-t2">T2</a><a href="#r7s1-t3">T3</a><a href="#r7s1-t4">T4</a><a href="#r7s1-t5">T5</a><a href="#r7s1-t6">T6</a><a href="#r7s1-t7">T7</a><a href="#r7s1-t8">T8</a><a href="#r7s1-t9">T9</a><a href="#r7s1-t10">T10</a><a href="#r7s1-t11">T11</a><a href="#r7s1-t12">T12</a><a href="#r7s1-t13">T13</a><a href="#r7s1-t14">T14</a><a href="#r7s1-t15">T15</a><a href="#r7s1-t16">T16</a><a href="#r7s1-t17">T17</a><a href="#r7s1-t18">T18</a><a href="#r7s1-t19">T19</a></div><div class="card turn" id="r7s1-t1"><div class="th"><h3>T1 · 前刃</h3><span class="t">10:39:58.75 – 10:40:02.31（3.6 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.11 g</b></span><span>施压时机 <b>40%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 11%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 41%　｜　右脚（后脚）Peak 早 · 施压时机 42%</div>
+<div class="r1"><img data-src="r7s1/img/ts01.png" alt=""><img data-src="r7s1/img/fg01.png" alt=""></div>
+<div class="r2"><img data-src="r7s1/img/fs01.png" alt=""><img data-src="r7s1/img/fr01.png" alt=""><img data-src="r7s1/img/fl01.png" alt=""></div></div><div class="card turn" id="r7s1-t2"><div class="th"><h3>T2 · 后刃</h3><span class="t">10:40:02.31 – 10:40:03.95（1.6 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.79 g</b></span><span>施压时机 <b>40%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 22%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 47%　｜　右脚（后脚）Peak 晚 · 施压时机 36%</div>
+<div class="r1"><img data-src="r7s1/img/ts02.png" alt=""><img data-src="r7s1/img/fg02.png" alt=""></div>
+<div class="r2"><img data-src="r7s1/img/fs02.png" alt=""><img data-src="r7s1/img/fr02.png" alt=""><img data-src="r7s1/img/fl02.png" alt=""></div></div><div class="card turn" id="r7s1-t3"><div class="th"><h3>T3 · 前刃</h3><span class="t">10:40:03.95 – 10:40:05.55（1.6 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.83 g</b></span><span>施压时机 <b>37%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 42%　｜　右脚（后脚）Peak 准 · 施压时机 35%</div>
+<div class="r1"><img data-src="r7s1/img/ts03.png" alt=""><img data-src="r7s1/img/fg03.png" alt=""></div>
+<div class="r2"><img data-src="r7s1/img/fs03.png" alt=""><img data-src="r7s1/img/fr03.png" alt=""><img data-src="r7s1/img/fl03.png" alt=""></div></div><div class="card turn" id="r7s1-t4"><div class="th"><h3>T4 · 后刃</h3><span class="t">10:40:05.55 – 10:40:07.39（1.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.66 g</b></span><span>施压时机 <b>37%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 42%　｜　右脚（后脚）Peak 准 · 施压时机 34%</div>
+<div class="r1"><img data-src="r7s1/img/ts04.png" alt=""><img data-src="r7s1/img/fg04.png" alt=""></div>
+<div class="r2"><img data-src="r7s1/img/fs04.png" alt=""><img data-src="r7s1/img/fr04.png" alt=""><img data-src="r7s1/img/fl04.png" alt=""></div></div><div class="card turn" id="r7s1-t5"><div class="th"><h3>T5 · 前刃</h3><span class="t">10:40:07.39 – 10:40:08.79（1.4 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.94 g</b></span><span>施压时机 <b>34%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 43%　｜　右脚（后脚）Peak 准 · 施压时机 32%</div>
+<div class="r1"><img data-src="r7s1/img/ts05.png" alt=""><img data-src="r7s1/img/fg05.png" alt=""></div>
+<div class="r2"><img data-src="r7s1/img/fs05.png" alt=""><img data-src="r7s1/img/fr05.png" alt=""><img data-src="r7s1/img/fl05.png" alt=""></div></div><div class="card turn" id="r7s1-t6"><div class="th"><h3>T6 · 后刃</h3><span class="t">10:40:08.79 – 10:40:10.67（1.9 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.80 g</b></span><span>施压时机 <b>44%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 48%　｜　右脚（后脚）Peak 准 · 施压时机 44%</div>
+<div class="r1"><img data-src="r7s1/img/ts06.png" alt=""><img data-src="r7s1/img/fg06.png" alt=""></div>
+<div class="r2"><img data-src="r7s1/img/fs06.png" alt=""><img data-src="r7s1/img/fr06.png" alt=""><img data-src="r7s1/img/fl06.png" alt=""></div></div><div class="card turn" id="r7s1-t7"><div class="th"><h3>T7 · 前刃</h3><span class="t">10:40:10.67 – 10:40:12.35（1.7 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.92 g</b></span><span>施压时机 <b>40%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 45%　｜　右脚（后脚）Peak 准 · 施压时机 39%</div>
+<div class="r1"><img data-src="r7s1/img/ts07.png" alt=""><img data-src="r7s1/img/fg07.png" alt=""></div>
+<div class="r2"><img data-src="r7s1/img/fs07.png" alt=""><img data-src="r7s1/img/fr07.png" alt=""><img data-src="r7s1/img/fl07.png" alt=""></div></div><div class="card turn" id="r7s1-t8"><div class="th"><h3>T8 · 后刃</h3><span class="t">10:40:12.35 – 10:40:14.27（1.9 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.78 g</b></span><span>施压时机 <b>45%</b> 在滚落线前</span><span>Peak 点 <b>早</b> （滚落线前 17%）</span></div><div class="fl">左脚（前脚）Peak 早 · 施压时机 50%　｜　右脚（后脚）Peak 早 · 施压时机 46%</div>
+<div class="r1"><img data-src="r7s1/img/ts08.png" alt=""><img data-src="r7s1/img/fg08.png" alt=""></div>
+<div class="r2"><img data-src="r7s1/img/fs08.png" alt=""><img data-src="r7s1/img/fr08.png" alt=""><img data-src="r7s1/img/fl08.png" alt=""></div></div><div class="card turn" id="r7s1-t9"><div class="th"><h3>T9 · 前刃</h3><span class="t">10:40:14.27 – 10:40:15.83（1.6 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.90 g</b></span><span>施压时机 <b>38%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 43%　｜　右脚（后脚）Peak 准 · 施压时机 36%</div>
+<div class="r1"><img data-src="r7s1/img/ts09.png" alt=""><img data-src="r7s1/img/fg09.png" alt=""></div>
+<div class="r2"><img data-src="r7s1/img/fs09.png" alt=""><img data-src="r7s1/img/fr09.png" alt=""><img data-src="r7s1/img/fl09.png" alt=""></div></div><div class="card turn" id="r7s1-t10"><div class="th"><h3>T10 · 后刃</h3><span class="t">10:40:15.83 – 10:40:17.43（1.6 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.68 g</b></span><span>施压时机 <b>34%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 39%　｜　右脚（后脚）Peak 准 · 施压时机 35%</div>
+<div class="r1"><img data-src="r7s1/img/ts10.png" alt=""><img data-src="r7s1/img/fg10.png" alt=""></div>
+<div class="r2"><img data-src="r7s1/img/fs10.png" alt=""><img data-src="r7s1/img/fr10.png" alt=""><img data-src="r7s1/img/fl10.png" alt=""></div></div><div class="card turn" id="r7s1-t11"><div class="th"><h3>T11 · 前刃</h3><span class="t">10:40:17.43 – 10:40:18.55（1.1 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.32 g</b></span><span>施压时机 <b>34%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 18%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 41%　｜　右脚（后脚）Peak 晚 · 施压时机 36%</div>
+<div class="r1"><img data-src="r7s1/img/ts11.png" alt=""><img data-src="r7s1/img/fg11.png" alt=""></div>
+<div class="r2"><img data-src="r7s1/img/fs11.png" alt=""><img data-src="r7s1/img/fr11.png" alt=""><img data-src="r7s1/img/fl11.png" alt=""></div></div><div class="card turn" id="r7s1-t12"><div class="th"><h3>T12 · 后刃</h3><span class="t">10:40:18.55 – 10:40:19.51（1.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.40 g</b></span><span>施压时机 <b>22%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 17%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 30%　｜　右脚（后脚）Peak 晚 · 施压时机 22%</div>
+<div class="r1"><img data-src="r7s1/img/ts12.png" alt=""><img data-src="r7s1/img/fg12.png" alt=""></div>
+<div class="r2"><img data-src="r7s1/img/fs12.png" alt=""><img data-src="r7s1/img/fr12.png" alt=""><img data-src="r7s1/img/fl12.png" alt=""></div></div><div class="card turn" id="r7s1-t13"><div class="th"><h3>T13 · 前刃</h3><span class="t">10:40:19.51 – 10:40:20.47（1.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.70 g</b></span><span>施压时机 <b>31%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 41%　｜　右脚（后脚）Peak 晚 · 施压时机 27%</div>
+<div class="r1"><img data-src="r7s1/img/ts13.png" alt=""><img data-src="r7s1/img/fg13.png" alt=""></div>
+<div class="r2"><img data-src="r7s1/img/fs13.png" alt=""><img data-src="r7s1/img/fr13.png" alt=""><img data-src="r7s1/img/fl13.png" alt=""></div></div><div class="card turn" id="r7s1-t14"><div class="th"><h3>T14 · 后刃</h3><span class="t">10:40:20.47 – 10:40:21.55（1.1 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.35 g</b></span><span>施压时机 <b>29%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 19%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 35%　｜　右脚（后脚）Peak 晚 · 施压时机 28%</div>
+<div class="r1"><img data-src="r7s1/img/ts14.png" alt=""><img data-src="r7s1/img/fg14.png" alt=""></div>
+<div class="r2"><img data-src="r7s1/img/fs14.png" alt=""><img data-src="r7s1/img/fr14.png" alt=""><img data-src="r7s1/img/fl14.png" alt=""></div></div><div class="card turn" id="r7s1-t15"><div class="th"><h3>T15 · 前刃</h3><span class="t">10:40:21.55 – 10:40:22.67（1.1 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.69 g</b></span><span>施压时机 <b>41%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 早 · 施压时机 55%　｜　右脚（后脚）Peak 准 · 施压时机 42%</div>
+<div class="r1"><img data-src="r7s1/img/ts15.png" alt=""><img data-src="r7s1/img/fg15.png" alt=""></div>
+<div class="r2"><img data-src="r7s1/img/fs15.png" alt=""><img data-src="r7s1/img/fr15.png" alt=""><img data-src="r7s1/img/fl15.png" alt=""></div></div><div class="card turn" id="r7s1-t16"><div class="th"><h3>T16 · 后刃</h3><span class="t">10:40:22.67 – 10:40:24.87（2.2 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.94 g</b></span><span>施压时机 <b>38%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 40%　｜　右脚（后脚）Peak 晚 · 施压时机 38%</div>
+<div class="r1"><img data-src="r7s1/img/ts16.png" alt=""><img data-src="r7s1/img/fg16.png" alt=""></div>
+<div class="r2"><img data-src="r7s1/img/fs16.png" alt=""><img data-src="r7s1/img/fr16.png" alt=""><img data-src="r7s1/img/fl16.png" alt=""></div></div><div class="card turn" id="r7s1-t17"><div class="th"><h3>T17 · 前刃</h3><span class="t">10:40:24.87 – 10:40:31.07（6.2 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.72 g</b></span><span>施压时机 <b>64%</b> 在滚落线前</span><span>Peak 点 <b>早</b> （滚落线前 57%）</span></div><div class="fl">左脚（前脚）Peak 早 · 施压时机 65%　｜　右脚（后脚）Peak 早 · 施压时机 66%</div>
+<div class="r1"><img data-src="r7s1/img/ts17.png" alt=""><img data-src="r7s1/img/fg17.png" alt=""></div>
+<div class="r2"><img data-src="r7s1/img/fs17.png" alt=""><img data-src="r7s1/img/fr17.png" alt=""><img data-src="r7s1/img/fl17.png" alt=""></div></div><div class="card turn" id="r7s1-t18"><div class="th"><h3>T18 · 后刃</h3><span class="t">10:40:31.07 – 10:40:32.35（1.3 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.20 g</b></span><span>施压时机 <b>30%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 早 · 施压时机 65%　｜　右脚（后脚）Peak 准 · 施压时机 22%</div>
+<div class="r1"><img data-src="r7s1/img/ts18.png" alt=""><img data-src="r7s1/img/fg18.png" alt=""></div>
+<div class="r2"><img data-src="r7s1/img/fs18.png" alt=""><img data-src="r7s1/img/fr18.png" alt=""><img data-src="r7s1/img/fl18.png" alt=""></div></div><div class="card turn" id="r7s1-t19"><div class="th"><h3>T19 · 后刃</h3><span class="t">10:40:32.35 – 10:40:34.79（2.4 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.43 g</b></span><span>施压时机 <b>42%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 30%　｜　右脚（后脚）Peak 早 · 施压时机 60%</div>
+<div class="r1"><img data-src="r7s1/img/ts19.png" alt=""><img data-src="r7s1/img/fg19.png" alt=""></div>
+<div class="r2"><img data-src="r7s1/img/fs19.png" alt=""><img data-src="r7s1/img/fr19.png" alt=""><img data-src="r7s1/img/fl19.png" alt=""></div></div></section><section id="s-r8s1" class="run" hidden>
+<div class="card">第 8 趟，北京时间 10:48:24–10:49:02，传感器切出 21 个弯。这一趟的弯型、离心力、Peak 点用的是主链路自动选的左脚（前脚）。</div>
+<h2>整趟四张图</h2>
+<div class="card tabs"><input type="radio" name="m-r8s1" id="m0-r8s1" checked><input type="radio" name="m-r8s1" id="m1-r8s1"><input type="radio" name="m-r8s1" id="m2-r8s1"><input type="radio" name="m-r8s1" id="m3-r8s1">
+<div class="btns"><label for="m0-r8s1">① 离心力</label><label for="m1-r8s1">② Peak 点</label><label for="m2-r8s1">③ 施压时机</label><label for="m3-r8s1">④ 立刃稳定性</label></div>
+<div class="panes"><div class="pane p0"><img data-src="r8s1/img/run_force.png" alt=""></div><div class="pane p1"><img data-src="r8s1/img/run_peak.png" alt=""></div><div class="pane p2"><img data-src="r8s1/img/run_timing.png" alt=""></div><div class="pane p3"><img data-src="r8s1/img/run_stab.png" alt=""></div></div></div>
+<h2>逐弯核对</h2>
+<div class="cap">每个弯：上排 ① 弯型（俯视真实比例，蓝色深浅 = 离心力，黑横线 = 滚落线，绿点 = Peak 点）、② 左右脚离心力；下排 ③ 左右脚弯型、④ 左右脚旋转速率、⑤ 左右脚立刃角。Peak 点 = 立刃最高的那一刻（脚上 IMU 立刃角 3Hz）；施压时机 = 离心力有多少落在滚落线之前。</div>
+<div class="nav"><a href="#r8s1-t1">T1</a><a href="#r8s1-t2">T2</a><a href="#r8s1-t3">T3</a><a href="#r8s1-t4">T4</a><a href="#r8s1-t5">T5</a><a href="#r8s1-t6">T6</a><a href="#r8s1-t7">T7</a><a href="#r8s1-t8">T8</a><a href="#r8s1-t9">T9</a><a href="#r8s1-t10">T10</a><a href="#r8s1-t11">T11</a><a href="#r8s1-t12">T12</a><a href="#r8s1-t13">T13</a><a href="#r8s1-t14">T14</a><a href="#r8s1-t15">T15</a><a href="#r8s1-t16">T16</a><a href="#r8s1-t17">T17</a><a href="#r8s1-t18">T18</a><a href="#r8s1-t19">T19</a><a href="#r8s1-t20">T20</a><a href="#r8s1-t21">T21</a></div><div class="card turn" id="r8s1-t1"><div class="th"><h3>T1 · 前刃</h3><span class="t">10:48:24.23 – 10:48:30.39（6.2 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.41 g</b></span><span>施压时机 <b>18%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 47%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 25%　｜　右脚（后脚）Peak 早 · 施压时机 19%</div>
+<div class="r1"><img data-src="r8s1/img/ts01.png" alt=""><img data-src="r8s1/img/fg01.png" alt=""></div>
+<div class="r2"><img data-src="r8s1/img/fs01.png" alt=""><img data-src="r8s1/img/fr01.png" alt=""><img data-src="r8s1/img/fl01.png" alt=""></div></div><div class="card turn" id="r8s1-t2"><div class="th"><h3>T2 · 后刃</h3><span class="t">10:48:30.39 – 10:48:31.91（1.5 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.85 g</b></span><span>施压时机 <b>28%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 11%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 36%　｜　右脚（后脚）Peak 晚 · 施压时机 26%</div>
+<div class="r1"><img data-src="r8s1/img/ts02.png" alt=""><img data-src="r8s1/img/fg02.png" alt=""></div>
+<div class="r2"><img data-src="r8s1/img/fs02.png" alt=""><img data-src="r8s1/img/fr02.png" alt=""><img data-src="r8s1/img/fl02.png" alt=""></div></div><div class="card turn" id="r8s1-t3"><div class="th"><h3>T3 · 前刃</h3><span class="t">10:48:31.91 – 10:48:33.71（1.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>2.01 g</b></span><span>施压时机 <b>37%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 49%　｜　右脚（后脚）Peak 准 · 施压时机 37%</div>
+<div class="r1"><img data-src="r8s1/img/ts03.png" alt=""><img data-src="r8s1/img/fg03.png" alt=""></div>
+<div class="r2"><img data-src="r8s1/img/fs03.png" alt=""><img data-src="r8s1/img/fr03.png" alt=""><img data-src="r8s1/img/fl03.png" alt=""></div></div><div class="card turn" id="r8s1-t4"><div class="th"><h3>T4 · 后刃</h3><span class="t">10:48:33.71 – 10:48:35.47（1.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.95 g</b></span><span>施压时机 <b>39%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 43%　｜　右脚（后脚）Peak 准 · 施压时机 37%</div>
+<div class="r1"><img data-src="r8s1/img/ts04.png" alt=""><img data-src="r8s1/img/fg04.png" alt=""></div>
+<div class="r2"><img data-src="r8s1/img/fs04.png" alt=""><img data-src="r8s1/img/fr04.png" alt=""><img data-src="r8s1/img/fl04.png" alt=""></div></div><div class="card turn" id="r8s1-t5"><div class="th"><h3>T5 · 前刃</h3><span class="t">10:48:35.47 – 10:48:37.03（1.6 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.93 g</b></span><span>施压时机 <b>48%</b> 在滚落线前</span><span>Peak 点 <b>早</b> （滚落线前 15%）</span></div><div class="fl">左脚（前脚）Peak 早 · 施压时机 57%　｜　右脚（后脚）Peak 早 · 施压时机 49%</div>
+<div class="r1"><img data-src="r8s1/img/ts05.png" alt=""><img data-src="r8s1/img/fg05.png" alt=""></div>
+<div class="r2"><img data-src="r8s1/img/fs05.png" alt=""><img data-src="r8s1/img/fr05.png" alt=""><img data-src="r8s1/img/fl05.png" alt=""></div></div><div class="card turn" id="r8s1-t6"><div class="th"><h3>T6 · 后刃</h3><span class="t">10:48:37.03 – 10:48:38.79（1.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.73 g</b></span><span>施压时机 <b>40%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 43%　｜　右脚（后脚）Peak 准 · 施压时机 41%</div>
+<div class="r1"><img data-src="r8s1/img/ts06.png" alt=""><img data-src="r8s1/img/fg06.png" alt=""></div>
+<div class="r2"><img data-src="r8s1/img/fs06.png" alt=""><img data-src="r8s1/img/fr06.png" alt=""><img data-src="r8s1/img/fl06.png" alt=""></div></div><div class="card turn" id="r8s1-t7"><div class="th"><h3>T7 · 前刃</h3><span class="t">10:48:38.79 – 10:48:40.39（1.6 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.60 g</b></span><span>施压时机 <b>36%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 47%　｜　右脚（后脚）Peak 准 · 施压时机 37%</div>
+<div class="r1"><img data-src="r8s1/img/ts07.png" alt=""><img data-src="r8s1/img/fg07.png" alt=""></div>
+<div class="r2"><img data-src="r8s1/img/fs07.png" alt=""><img data-src="r8s1/img/fr07.png" alt=""><img data-src="r8s1/img/fl07.png" alt=""></div></div><div class="card turn" id="r8s1-t8"><div class="th"><h3>T8 · 后刃</h3><span class="t">10:48:40.39 – 10:48:42.19（1.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.45 g</b></span><span>施压时机 <b>36%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 43%　｜　右脚（后脚）Peak 准 · 施压时机 35%</div>
+<div class="r1"><img data-src="r8s1/img/ts08.png" alt=""><img data-src="r8s1/img/fg08.png" alt=""></div>
+<div class="r2"><img data-src="r8s1/img/fs08.png" alt=""><img data-src="r8s1/img/fr08.png" alt=""><img data-src="r8s1/img/fl08.png" alt=""></div></div><div class="card turn" id="r8s1-t9"><div class="th"><h3>T9 · 前刃</h3><span class="t">10:48:42.19 – 10:48:43.59（1.4 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.92 g</b></span><span>施压时机 <b>34%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 39%　｜　右脚（后脚）Peak 准 · 施压时机 32%</div>
+<div class="r1"><img data-src="r8s1/img/ts09.png" alt=""><img data-src="r8s1/img/fg09.png" alt=""></div>
+<div class="r2"><img data-src="r8s1/img/fs09.png" alt=""><img data-src="r8s1/img/fr09.png" alt=""><img data-src="r8s1/img/fl09.png" alt=""></div></div><div class="card turn" id="r8s1-t10"><div class="th"><h3>T10 · 后刃</h3><span class="t">10:48:43.59 – 10:48:45.59（2.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.49 g</b></span><span>施压时机 <b>33%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 35%　｜　右脚（后脚）Peak 晚 · 施压时机 29%</div>
+<div class="r1"><img data-src="r8s1/img/ts10.png" alt=""><img data-src="r8s1/img/fg10.png" alt=""></div>
+<div class="r2"><img data-src="r8s1/img/fs10.png" alt=""><img data-src="r8s1/img/fr10.png" alt=""><img data-src="r8s1/img/fl10.png" alt=""></div></div><div class="card turn" id="r8s1-t11"><div class="th"><h3>T11 · 前刃</h3><span class="t">10:48:45.59 – 10:48:46.91（1.3 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.65 g</b></span><span>施压时机 <b>37%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 43%　｜　右脚（后脚）Peak 晚 · 施压时机 32%</div>
+<div class="r1"><img data-src="r8s1/img/ts11.png" alt=""><img data-src="r8s1/img/fg11.png" alt=""></div>
+<div class="r2"><img data-src="r8s1/img/fs11.png" alt=""><img data-src="r8s1/img/fr11.png" alt=""><img data-src="r8s1/img/fl11.png" alt=""></div></div><div class="card turn" id="r8s1-t12"><div class="th"><h3>T12 · 后刃</h3><span class="t">10:48:46.91 – 10:48:47.95（1.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.46 g</b></span><span>施压时机 <b>12%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 23%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 15%　｜　右脚（后脚）Peak 晚 · 施压时机 12%</div>
+<div class="r1"><img data-src="r8s1/img/ts12.png" alt=""><img data-src="r8s1/img/fg12.png" alt=""></div>
+<div class="r2"><img data-src="r8s1/img/fs12.png" alt=""><img data-src="r8s1/img/fr12.png" alt=""><img data-src="r8s1/img/fl12.png" alt=""></div></div><div class="card turn" id="r8s1-t13"><div class="th"><h3>T13 · 前刃</h3><span class="t">10:48:47.95 – 10:48:48.83（0.9 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.23 g</b></span><span>施压时机 <b>25%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 18%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 34%　｜　右脚（后脚）Peak 晚 · 施压时机 17%</div>
+<div class="r1"><img data-src="r8s1/img/ts13.png" alt=""><img data-src="r8s1/img/fg13.png" alt=""></div>
+<div class="r2"><img data-src="r8s1/img/fs13.png" alt=""><img data-src="r8s1/img/fr13.png" alt=""><img data-src="r8s1/img/fl13.png" alt=""></div></div><div class="card turn" id="r8s1-t14"><div class="th"><h3>T14 · 后刃</h3><span class="t">10:48:48.83 – 10:48:49.87（1.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.35 g</b></span><span>施压时机 <b>16%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 19%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 25%　｜　右脚（后脚）Peak 晚 · 施压时机 13%</div>
+<div class="r1"><img data-src="r8s1/img/ts14.png" alt=""><img data-src="r8s1/img/fg14.png" alt=""></div>
+<div class="r2"><img data-src="r8s1/img/fs14.png" alt=""><img data-src="r8s1/img/fr14.png" alt=""><img data-src="r8s1/img/fl14.png" alt=""></div></div><div class="card turn" id="r8s1-t15"><div class="th"><h3>T15 · 前刃</h3><span class="t">10:48:49.87 – 10:48:50.87（1.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.42 g</b></span><span>施压时机 <b>29%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 35%　｜　右脚（后脚）Peak 早 · 施压时机 24%</div>
+<div class="r1"><img data-src="r8s1/img/ts15.png" alt=""><img data-src="r8s1/img/fg15.png" alt=""></div>
+<div class="r2"><img data-src="r8s1/img/fs15.png" alt=""><img data-src="r8s1/img/fr15.png" alt=""><img data-src="r8s1/img/fl15.png" alt=""></div></div><div class="card turn" id="r8s1-t16"><div class="th"><h3>T16 · 后刃</h3><span class="t">10:48:50.87 – 10:48:51.87（1.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.35 g</b></span><span>施压时机 <b>17%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 24%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 25%　｜　右脚（后脚）Peak 晚 · 施压时机 9%</div>
+<div class="r1"><img data-src="r8s1/img/ts16.png" alt=""><img data-src="r8s1/img/fg16.png" alt=""></div>
+<div class="r2"><img data-src="r8s1/img/fs16.png" alt=""><img data-src="r8s1/img/fr16.png" alt=""><img data-src="r8s1/img/fl16.png" alt=""></div></div><div class="card turn" id="r8s1-t17"><div class="th"><h3>T17 · 前刃</h3><span class="t">10:48:51.87 – 10:48:52.87（1.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.31 g</b></span><span>施压时机 <b>12%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 16%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 18%　｜　右脚（后脚）Peak 早 · 施压时机 6%</div>
+<div class="r1"><img data-src="r8s1/img/ts17.png" alt=""><img data-src="r8s1/img/fg17.png" alt=""></div>
+<div class="r2"><img data-src="r8s1/img/fs17.png" alt=""><img data-src="r8s1/img/fr17.png" alt=""><img data-src="r8s1/img/fl17.png" alt=""></div></div><div class="card turn" id="r8s1-t18"><div class="th"><h3>T18 · 后刃</h3><span class="t">10:48:52.87 – 10:48:54.23（1.4 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.99 g</b></span><span>施压时机 <b>16%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 29%　｜　右脚（后脚）Peak 晚 · 施压时机 10%</div>
+<div class="r1"><img data-src="r8s1/img/ts18.png" alt=""><img data-src="r8s1/img/fg18.png" alt=""></div>
+<div class="r2"><img data-src="r8s1/img/fs18.png" alt=""><img data-src="r8s1/img/fr18.png" alt=""><img data-src="r8s1/img/fl18.png" alt=""></div></div><div class="card turn" id="r8s1-t19"><div class="th"><h3>T19 · 前刃</h3><span class="t">10:48:54.23 – 10:48:56.51（2.3 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.75 g</b></span><span>施压时机 <b>14%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 40%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 23%　｜　右脚（后脚）Peak 早 · 施压时机 8%</div>
+<div class="r1"><img data-src="r8s1/img/ts19.png" alt=""><img data-src="r8s1/img/fg19.png" alt=""></div>
+<div class="r2"><img data-src="r8s1/img/fs19.png" alt=""><img data-src="r8s1/img/fr19.png" alt=""><img data-src="r8s1/img/fl19.png" alt=""></div></div><div class="card turn" id="r8s1-t20"><div class="th"><h3>T20 · 后刃</h3><span class="t">10:48:56.51 – 10:48:58.31（1.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.37 g</b></span><span>施压时机 <b>41%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 40%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 47%　｜　右脚（后脚）Peak 晚 · 施压时机 38%</div>
+<div class="r1"><img data-src="r8s1/img/ts20.png" alt=""><img data-src="r8s1/img/fg20.png" alt=""></div>
+<div class="r2"><img data-src="r8s1/img/fs20.png" alt=""><img data-src="r8s1/img/fr20.png" alt=""><img data-src="r8s1/img/fl20.png" alt=""></div></div><div class="card turn" id="r8s1-t21"><div class="th"><h3>T21 · 前刃</h3><span class="t">10:48:58.31 – 10:49:02.31（4.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.38 g</b></span><span>施压时机 <b>50%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 55%　｜　右脚（后脚）Peak 早 · 施压时机 48%</div>
+<div class="r1"><img data-src="r8s1/img/ts21.png" alt=""><img data-src="r8s1/img/fg21.png" alt=""></div>
+<div class="r2"><img data-src="r8s1/img/fs21.png" alt=""><img data-src="r8s1/img/fr21.png" alt=""><img data-src="r8s1/img/fl21.png" alt=""></div></div></section><section id="s-r9s1" class="run" hidden>
+<div class="card">第 9 趟，北京时间 10:54:24–10:54:56，传感器切出 29 个弯。这一趟的弯型、离心力、Peak 点用的是主链路自动选的左脚（前脚）。</div>
+<h2>整趟四张图</h2>
+<div class="card tabs"><input type="radio" name="m-r9s1" id="m0-r9s1" checked><input type="radio" name="m-r9s1" id="m1-r9s1"><input type="radio" name="m-r9s1" id="m2-r9s1"><input type="radio" name="m-r9s1" id="m3-r9s1">
+<div class="btns"><label for="m0-r9s1">① 离心力</label><label for="m1-r9s1">② Peak 点</label><label for="m2-r9s1">③ 施压时机</label><label for="m3-r9s1">④ 立刃稳定性</label></div>
+<div class="panes"><div class="pane p0"><img data-src="r9s1/img/run_force.png" alt=""></div><div class="pane p1"><img data-src="r9s1/img/run_peak.png" alt=""></div><div class="pane p2"><img data-src="r9s1/img/run_timing.png" alt=""></div><div class="pane p3"><img data-src="r9s1/img/run_stab.png" alt=""></div></div></div>
+<h2>逐弯核对</h2>
+<div class="cap">每个弯：上排 ① 弯型（俯视真实比例，蓝色深浅 = 离心力，黑横线 = 滚落线，绿点 = Peak 点）、② 左右脚离心力；下排 ③ 左右脚弯型、④ 左右脚旋转速率、⑤ 左右脚立刃角。Peak 点 = 立刃最高的那一刻（脚上 IMU 立刃角 3Hz）；施压时机 = 离心力有多少落在滚落线之前。</div>
+<div class="nav"><a href="#r9s1-t1">T1</a><a href="#r9s1-t2">T2</a><a href="#r9s1-t3">T3</a><a href="#r9s1-t4">T4</a><a href="#r9s1-t5">T5</a><a href="#r9s1-t6">T6</a><a href="#r9s1-t7">T7</a><a href="#r9s1-t8">T8</a><a href="#r9s1-t9">T9</a><a href="#r9s1-t10">T10</a><a href="#r9s1-t11">T11</a><a href="#r9s1-t12">T12</a><a href="#r9s1-t13">T13</a><a href="#r9s1-t14">T14</a><a href="#r9s1-t15">T15</a><a href="#r9s1-t16">T16</a><a href="#r9s1-t17">T17</a><a href="#r9s1-t18">T18</a><a href="#r9s1-t19">T19</a><a href="#r9s1-t20">T20</a><a href="#r9s1-t21">T21</a><a href="#r9s1-t22">T22</a><a href="#r9s1-t23">T23</a><a href="#r9s1-t24">T24</a><a href="#r9s1-t25">T25</a><a href="#r9s1-t26">T26</a><a href="#r9s1-t27">T27</a><a href="#r9s1-t28">T28</a><a href="#r9s1-t29">T29</a></div><div class="card turn" id="r9s1-t1"><div class="th"><h3>T1 · 前刃</h3><span class="t">10:54:24.83 – 10:54:25.39（0.6 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.27 g</b></span><span>施压时机 <b>13%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 34%　｜　右脚（后脚）Peak 晚 · 施压时机 7%</div>
+<div class="r1"><img data-src="r9s1/img/ts01.png" alt=""><img data-src="r9s1/img/fg01.png" alt=""></div>
+<div class="r2"><img data-src="r9s1/img/fs01.png" alt=""><img data-src="r9s1/img/fr01.png" alt=""><img data-src="r9s1/img/fl01.png" alt=""></div></div><div class="card turn" id="r9s1-t2"><div class="th"><h3>T2 · 后刃</h3><span class="t">10:54:25.39 – 10:54:26.51（1.1 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.61 g</b></span><span>施压时机 <b>17%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 21%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 33%　｜　右脚（后脚）Peak 晚 · 施压时机 14%</div>
+<div class="r1"><img data-src="r9s1/img/ts02.png" alt=""><img data-src="r9s1/img/fg02.png" alt=""></div>
+<div class="r2"><img data-src="r9s1/img/fs02.png" alt=""><img data-src="r9s1/img/fr02.png" alt=""><img data-src="r9s1/img/fl02.png" alt=""></div></div><div class="card turn" id="r9s1-t3"><div class="th"><h3>T3 · 前刃</h3><span class="t">10:54:26.51 – 10:54:27.55（1.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.98 g</b></span><span>施压时机 <b>12%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 27%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 20%　｜　右脚（后脚）Peak 早 · 施压时机 9%</div>
+<div class="r1"><img data-src="r9s1/img/ts03.png" alt=""><img data-src="r9s1/img/fg03.png" alt=""></div>
+<div class="r2"><img data-src="r9s1/img/fs03.png" alt=""><img data-src="r9s1/img/fr03.png" alt=""><img data-src="r9s1/img/fl03.png" alt=""></div></div><div class="card turn" id="r9s1-t4"><div class="th"><h3>T4 · 后刃</h3><span class="t">10:54:27.55 – 10:54:28.43（0.9 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.96 g</b></span><span>施压时机 <b>14%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 23%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 26%　｜　右脚（后脚）Peak 晚 · 施压时机 12%</div>
+<div class="r1"><img data-src="r9s1/img/ts04.png" alt=""><img data-src="r9s1/img/fg04.png" alt=""></div>
+<div class="r2"><img data-src="r9s1/img/fs04.png" alt=""><img data-src="r9s1/img/fr04.png" alt=""><img data-src="r9s1/img/fl04.png" alt=""></div></div><div class="card turn" id="r9s1-t5"><div class="th"><h3>T5 · 前刃</h3><span class="t">10:54:28.43 – 10:54:29.11（0.7 秒）</span></div>
+<div class="chips"><span>离心力 <b>2.17 g</b></span><span>施压时机 <b>15%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 18%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 27%　｜　右脚（后脚）Peak 早 · 施压时机 9%</div>
+<div class="r1"><img data-src="r9s1/img/ts05.png" alt=""><img data-src="r9s1/img/fg05.png" alt=""></div>
+<div class="r2"><img data-src="r9s1/img/fs05.png" alt=""><img data-src="r9s1/img/fr05.png" alt=""><img data-src="r9s1/img/fl05.png" alt=""></div></div><div class="card turn" id="r9s1-t6"><div class="th"><h3>T6 · 后刃</h3><span class="t">10:54:29.11 – 10:54:30.19（1.1 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.90 g</b></span><span>施压时机 <b>26%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 19%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 29%　｜　右脚（后脚）Peak 晚 · 施压时机 15%</div>
+<div class="r1"><img data-src="r9s1/img/ts06.png" alt=""><img data-src="r9s1/img/fg06.png" alt=""></div>
+<div class="r2"><img data-src="r9s1/img/fs06.png" alt=""><img data-src="r9s1/img/fr06.png" alt=""><img data-src="r9s1/img/fl06.png" alt=""></div></div><div class="card turn" id="r9s1-t7"><div class="th"><h3>T7 · 前刃</h3><span class="t">10:54:30.19 – 10:54:30.99（0.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>2.32 g</b></span><span>施压时机 <b>11%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 30%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 30%　｜　右脚（后脚）Peak 早 · 施压时机 10%</div>
+<div class="r1"><img data-src="r9s1/img/ts07.png" alt=""><img data-src="r9s1/img/fg07.png" alt=""></div>
+<div class="r2"><img data-src="r9s1/img/fs07.png" alt=""><img data-src="r9s1/img/fr07.png" alt=""><img data-src="r9s1/img/fl07.png" alt=""></div></div><div class="card turn" id="r9s1-t8"><div class="th"><h3>T8 · 后刃</h3><span class="t">10:54:30.99 – 10:54:31.87（0.9 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.75 g</b></span><span>施压时机 <b>13%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 27%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 24%　｜　右脚（后脚）Peak 晚 · 施压时机 17%</div>
+<div class="r1"><img data-src="r9s1/img/ts08.png" alt=""><img data-src="r9s1/img/fg08.png" alt=""></div>
+<div class="r2"><img data-src="r9s1/img/fs08.png" alt=""><img data-src="r9s1/img/fr08.png" alt=""><img data-src="r9s1/img/fl08.png" alt=""></div></div><div class="card turn" id="r9s1-t9"><div class="th"><h3>T9 · 前刃</h3><span class="t">10:54:31.87 – 10:54:32.67（0.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>2.14 g</b></span><span>施压时机 <b>14%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 25%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 20%　｜　右脚（后脚）Peak 早 · 施压时机 11%</div>
+<div class="r1"><img data-src="r9s1/img/ts09.png" alt=""><img data-src="r9s1/img/fg09.png" alt=""></div>
+<div class="r2"><img data-src="r9s1/img/fs09.png" alt=""><img data-src="r9s1/img/fr09.png" alt=""><img data-src="r9s1/img/fl09.png" alt=""></div></div><div class="card turn" id="r9s1-t10"><div class="th"><h3>T10 · 后刃</h3><span class="t">10:54:32.67 – 10:54:33.79（1.1 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.97 g</b></span><span>施压时机 <b>22%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 21%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 24%　｜　右脚（后脚）Peak 晚 · 施压时机 16%</div>
+<div class="r1"><img data-src="r9s1/img/ts10.png" alt=""><img data-src="r9s1/img/fg10.png" alt=""></div>
+<div class="r2"><img data-src="r9s1/img/fs10.png" alt=""><img data-src="r9s1/img/fr10.png" alt=""><img data-src="r9s1/img/fl10.png" alt=""></div></div><div class="card turn" id="r9s1-t11"><div class="th"><h3>T11 · 前刃</h3><span class="t">10:54:33.79 – 10:54:34.71（0.9 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.46 g</b></span><span>施压时机 <b>21%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 30%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 33%　｜　右脚（后脚）Peak 晚 · 施压时机 14%</div>
+<div class="r1"><img data-src="r9s1/img/ts11.png" alt=""><img data-src="r9s1/img/fg11.png" alt=""></div>
+<div class="r2"><img data-src="r9s1/img/fs11.png" alt=""><img data-src="r9s1/img/fr11.png" alt=""><img data-src="r9s1/img/fl11.png" alt=""></div></div><div class="card turn" id="r9s1-t12"><div class="th"><h3>T12 · 后刃</h3><span class="t">10:54:34.71 – 10:54:35.71（1.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.64 g</b></span><span>施压时机 <b>23%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 24%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 33%　｜　右脚（后脚）Peak 晚 · 施压时机 18%</div>
+<div class="r1"><img data-src="r9s1/img/ts12.png" alt=""><img data-src="r9s1/img/fg12.png" alt=""></div>
+<div class="r2"><img data-src="r9s1/img/fs12.png" alt=""><img data-src="r9s1/img/fr12.png" alt=""><img data-src="r9s1/img/fl12.png" alt=""></div></div><div class="card turn" id="r9s1-t13"><div class="th"><h3>T13 · 前刃</h3><span class="t">10:54:35.71 – 10:54:36.59（0.9 秒）</span></div>
+<div class="chips"><span>离心力 <b>2.14 g</b></span><span>施压时机 <b>19%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 23%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 31%　｜　右脚（后脚）Peak 晚 · 施压时机 19%</div>
+<div class="r1"><img data-src="r9s1/img/ts13.png" alt=""><img data-src="r9s1/img/fg13.png" alt=""></div>
+<div class="r2"><img data-src="r9s1/img/fs13.png" alt=""><img data-src="r9s1/img/fr13.png" alt=""><img data-src="r9s1/img/fl13.png" alt=""></div></div><div class="card turn" id="r9s1-t14"><div class="th"><h3>T14 · 后刃</h3><span class="t">10:54:36.59 – 10:54:37.59（1.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.66 g</b></span><span>施压时机 <b>20%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 20%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 25%　｜　右脚（后脚）Peak 晚 · 施压时机 15%</div>
+<div class="r1"><img data-src="r9s1/img/ts14.png" alt=""><img data-src="r9s1/img/fg14.png" alt=""></div>
+<div class="r2"><img data-src="r9s1/img/fs14.png" alt=""><img data-src="r9s1/img/fr14.png" alt=""><img data-src="r9s1/img/fl14.png" alt=""></div></div><div class="card turn" id="r9s1-t15"><div class="th"><h3>T15 · 前刃</h3><span class="t">10:54:37.59 – 10:54:38.39（0.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>2.14 g</b></span><span>施压时机 <b>15%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 25%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 23%　｜　右脚（后脚）Peak 早 · 施压时机 9%</div>
+<div class="r1"><img data-src="r9s1/img/ts15.png" alt=""><img data-src="r9s1/img/fg15.png" alt=""></div>
+<div class="r2"><img data-src="r9s1/img/fs15.png" alt=""><img data-src="r9s1/img/fr15.png" alt=""><img data-src="r9s1/img/fl15.png" alt=""></div></div><div class="card turn" id="r9s1-t16"><div class="th"><h3>T16 · 后刃</h3><span class="t">10:54:38.39 – 10:54:39.43（1.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.71 g</b></span><span>施压时机 <b>16%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 19%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 22%　｜　右脚（后脚）Peak 晚 · 施压时机 17%</div>
+<div class="r1"><img data-src="r9s1/img/ts16.png" alt=""><img data-src="r9s1/img/fg16.png" alt=""></div>
+<div class="r2"><img data-src="r9s1/img/fs16.png" alt=""><img data-src="r9s1/img/fr16.png" alt=""><img data-src="r9s1/img/fl16.png" alt=""></div></div><div class="card turn" id="r9s1-t17"><div class="th"><h3>T17 · 前刃</h3><span class="t">10:54:39.43 – 10:54:40.27（0.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.72 g</b></span><span>施压时机 <b>29%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 14%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 41%　｜　右脚（后脚）Peak 早 · 施压时机 21%</div>
+<div class="r1"><img data-src="r9s1/img/ts17.png" alt=""><img data-src="r9s1/img/fg17.png" alt=""></div>
+<div class="r2"><img data-src="r9s1/img/fs17.png" alt=""><img data-src="r9s1/img/fr17.png" alt=""><img data-src="r9s1/img/fl17.png" alt=""></div></div><div class="card turn" id="r9s1-t18"><div class="th"><h3>T18 · 后刃</h3><span class="t">10:54:40.27 – 10:54:41.19（0.9 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.79 g</b></span><span>施压时机 <b>16%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 26%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 27%　｜　右脚（后脚）Peak 晚 · 施压时机 11%</div>
+<div class="r1"><img data-src="r9s1/img/ts18.png" alt=""><img data-src="r9s1/img/fg18.png" alt=""></div>
+<div class="r2"><img data-src="r9s1/img/fs18.png" alt=""><img data-src="r9s1/img/fr18.png" alt=""><img data-src="r9s1/img/fl18.png" alt=""></div></div><div class="card turn" id="r9s1-t19"><div class="th"><h3>T19 · 前刃</h3><span class="t">10:54:41.19 – 10:54:42.19（1.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.44 g</b></span><span>施压时机 <b>29%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 20%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 40%　｜　右脚（后脚）Peak 早 · 施压时机 29%</div>
+<div class="r1"><img data-src="r9s1/img/ts19.png" alt=""><img data-src="r9s1/img/fg19.png" alt=""></div>
+<div class="r2"><img data-src="r9s1/img/fs19.png" alt=""><img data-src="r9s1/img/fr19.png" alt=""><img data-src="r9s1/img/fl19.png" alt=""></div></div><div class="card turn" id="r9s1-t20"><div class="th"><h3>T20 · 后刃</h3><span class="t">10:54:42.19 – 10:54:43.27（1.1 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.65 g</b></span><span>施压时机 <b>26%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 19%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 35%　｜　右脚（后脚）Peak 晚 · 施压时机 26%</div>
+<div class="r1"><img data-src="r9s1/img/ts20.png" alt=""><img data-src="r9s1/img/fg20.png" alt=""></div>
+<div class="r2"><img data-src="r9s1/img/fs20.png" alt=""><img data-src="r9s1/img/fr20.png" alt=""><img data-src="r9s1/img/fl20.png" alt=""></div></div><div class="card turn" id="r9s1-t21"><div class="th"><h3>T21 · 前刃</h3><span class="t">10:54:43.27 – 10:54:44.11（0.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.90 g</b></span><span>施压时机 <b>22%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 14%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 43%　｜　右脚（后脚）Peak 早 · 施压时机 22%</div>
+<div class="r1"><img data-src="r9s1/img/ts21.png" alt=""><img data-src="r9s1/img/fg21.png" alt=""></div>
+<div class="r2"><img data-src="r9s1/img/fs21.png" alt=""><img data-src="r9s1/img/fr21.png" alt=""><img data-src="r9s1/img/fl21.png" alt=""></div></div><div class="card turn" id="r9s1-t22"><div class="th"><h3>T22 · 后刃</h3><span class="t">10:54:44.11 – 10:54:45.11（1.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.59 g</b></span><span>施压时机 <b>20%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 20%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 31%　｜　右脚（后脚）Peak 晚 · 施压时机 22%</div>
+<div class="r1"><img data-src="r9s1/img/ts22.png" alt=""><img data-src="r9s1/img/fg22.png" alt=""></div>
+<div class="r2"><img data-src="r9s1/img/fs22.png" alt=""><img data-src="r9s1/img/fr22.png" alt=""><img data-src="r9s1/img/fl22.png" alt=""></div></div><div class="card turn" id="r9s1-t23"><div class="th"><h3>T23 · 前刃</h3><span class="t">10:54:45.11 – 10:54:45.99（0.9 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.81 g</b></span><span>施压时机 <b>21%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 14%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 32%　｜　右脚（后脚）Peak 早 · 施压时机 19%</div>
+<div class="r1"><img data-src="r9s1/img/ts23.png" alt=""><img data-src="r9s1/img/fg23.png" alt=""></div>
+<div class="r2"><img data-src="r9s1/img/fs23.png" alt=""><img data-src="r9s1/img/fr23.png" alt=""><img data-src="r9s1/img/fl23.png" alt=""></div></div><div class="card turn" id="r9s1-t24"><div class="th"><h3>T24 · 后刃</h3><span class="t">10:54:45.99 – 10:54:46.99（1.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.60 g</b></span><span>施压时机 <b>19%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 35%　｜　右脚（后脚）Peak 准 · 施压时机 16%</div>
+<div class="r1"><img data-src="r9s1/img/ts24.png" alt=""><img data-src="r9s1/img/fg24.png" alt=""></div>
+<div class="r2"><img data-src="r9s1/img/fs24.png" alt=""><img data-src="r9s1/img/fr24.png" alt=""><img data-src="r9s1/img/fl24.png" alt=""></div></div><div class="card turn" id="r9s1-t25"><div class="th"><h3>T25 · 前刃</h3><span class="t">10:54:46.99 – 10:54:48.59（1.6 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.66 g</b></span><span>施压时机 <b>32%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 38%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 40%　｜　右脚（后脚）Peak 早 · 施压时机 30%</div>
+<div class="r1"><img data-src="r9s1/img/ts25.png" alt=""><img data-src="r9s1/img/fg25.png" alt=""></div>
+<div class="r2"><img data-src="r9s1/img/fs25.png" alt=""><img data-src="r9s1/img/fr25.png" alt=""><img data-src="r9s1/img/fl25.png" alt=""></div></div><div class="card turn" id="r9s1-t26"><div class="th"><h3>T26 · 后刃</h3><span class="t">10:54:48.59 – 10:54:49.91（1.3 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.85 g</b></span><span>施压时机 <b>35%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 15%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 44%　｜　右脚（后脚）Peak 晚 · 施压时机 37%</div>
+<div class="r1"><img data-src="r9s1/img/ts26.png" alt=""><img data-src="r9s1/img/fg26.png" alt=""></div>
+<div class="r2"><img data-src="r9s1/img/fs26.png" alt=""><img data-src="r9s1/img/fr26.png" alt=""><img data-src="r9s1/img/fl26.png" alt=""></div></div><div class="card turn" id="r9s1-t27"><div class="th"><h3>T27 · 前刃</h3><span class="t">10:54:49.91 – 10:54:52.91（3.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.74 g</b></span><span>施压时机 <b>56%</b> 在滚落线前</span><span>Peak 点 <b>早</b> （滚落线前 37%）</span></div><div class="fl">左脚（前脚）Peak 早 · 施压时机 60%　｜　右脚（后脚）Peak 早 · 施压时机 56%</div>
+<div class="r1"><img data-src="r9s1/img/ts27.png" alt=""><img data-src="r9s1/img/fg27.png" alt=""></div>
+<div class="r2"><img data-src="r9s1/img/fs27.png" alt=""><img data-src="r9s1/img/fr27.png" alt=""><img data-src="r9s1/img/fl27.png" alt=""></div></div><div class="card turn" id="r9s1-t28"><div class="th"><h3>T28 · 后刃</h3><span class="t">10:54:52.91 – 10:54:54.35（1.4 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.92 g</b></span><span>施压时机 <b>41%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 59%　｜　右脚（后脚）Peak 准 · 施压时机 31%</div>
+<div class="r1"><img data-src="r9s1/img/ts28.png" alt=""><img data-src="r9s1/img/fg28.png" alt=""></div>
+<div class="r2"><img data-src="r9s1/img/fs28.png" alt=""><img data-src="r9s1/img/fr28.png" alt=""><img data-src="r9s1/img/fl28.png" alt=""></div></div><div class="card turn" id="r9s1-t29"><div class="th"><h3>T29 · 后刃</h3><span class="t">10:54:54.35 – 10:54:56.03（1.7 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.23 g</b></span><span>施压时机 <b>26%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 36%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 8%　｜　右脚（后脚）Peak 早 · 施压时机 60%</div>
+<div class="r1"><img data-src="r9s1/img/ts29.png" alt=""><img data-src="r9s1/img/fg29.png" alt=""></div>
+<div class="r2"><img data-src="r9s1/img/fs29.png" alt=""><img data-src="r9s1/img/fr29.png" alt=""><img data-src="r9s1/img/fl29.png" alt=""></div></div></section><section id="s-r10s1" class="run" hidden>
+<div class="card">第 10 趟，北京时间 11:02:14–11:02:43，传感器切出 26 个弯。这一趟的弯型、离心力、Peak 点用的是主链路自动选的左脚（前脚）。</div>
+<h2>整趟四张图</h2>
+<div class="card tabs"><input type="radio" name="m-r10s1" id="m0-r10s1" checked><input type="radio" name="m-r10s1" id="m1-r10s1"><input type="radio" name="m-r10s1" id="m2-r10s1"><input type="radio" name="m-r10s1" id="m3-r10s1">
+<div class="btns"><label for="m0-r10s1">① 离心力</label><label for="m1-r10s1">② Peak 点</label><label for="m2-r10s1">③ 施压时机</label><label for="m3-r10s1">④ 立刃稳定性</label></div>
+<div class="panes"><div class="pane p0"><img data-src="r10s1/img/run_force.png" alt=""></div><div class="pane p1"><img data-src="r10s1/img/run_peak.png" alt=""></div><div class="pane p2"><img data-src="r10s1/img/run_timing.png" alt=""></div><div class="pane p3"><img data-src="r10s1/img/run_stab.png" alt=""></div></div></div>
+<h2>逐弯核对</h2>
+<div class="cap">每个弯：上排 ① 弯型（俯视真实比例，蓝色深浅 = 离心力，黑横线 = 滚落线，绿点 = Peak 点）、② 左右脚离心力；下排 ③ 左右脚弯型、④ 左右脚旋转速率、⑤ 左右脚立刃角。Peak 点 = 立刃最高的那一刻（脚上 IMU 立刃角 3Hz）；施压时机 = 离心力有多少落在滚落线之前。</div>
+<div class="nav"><a href="#r10s1-t1">T1</a><a href="#r10s1-t2">T2</a><a href="#r10s1-t3">T3</a><a href="#r10s1-t4">T4</a><a href="#r10s1-t5">T5</a><a href="#r10s1-t6">T6</a><a href="#r10s1-t7">T7</a><a href="#r10s1-t8">T8</a><a href="#r10s1-t9">T9</a><a href="#r10s1-t10">T10</a><a href="#r10s1-t11">T11</a><a href="#r10s1-t12">T12</a><a href="#r10s1-t13">T13</a><a href="#r10s1-t14">T14</a><a href="#r10s1-t15">T15</a><a href="#r10s1-t16">T16</a><a href="#r10s1-t17">T17</a><a href="#r10s1-t18">T18</a><a href="#r10s1-t19">T19</a><a href="#r10s1-t20">T20</a><a href="#r10s1-t21">T21</a><a href="#r10s1-t22">T22</a><a href="#r10s1-t23">T23</a><a href="#r10s1-t24">T24</a><a href="#r10s1-t25">T25</a><a href="#r10s1-t26">T26</a></div><div class="card turn" id="r10s1-t1"><div class="th"><h3>T1 · 后刃</h3><span class="t">11:02:14.31 – 11:02:15.15（0.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.75 g</b></span><span>施压时机 <b>20%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 14%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 33%　｜　右脚（后脚）Peak 晚 · 施压时机 24%</div>
+<div class="r1"><img data-src="r10s1/img/ts01.png" alt=""><img data-src="r10s1/img/fg01.png" alt=""></div>
+<div class="r2"><img data-src="r10s1/img/fs01.png" alt=""><img data-src="r10s1/img/fr01.png" alt=""><img data-src="r10s1/img/fl01.png" alt=""></div></div><div class="card turn" id="r10s1-t2"><div class="th"><h3>T2 · 前刃</h3><span class="t">11:02:15.15 – 11:02:16.03（0.9 秒）</span></div>
+<div class="chips"><span>离心力 <b>2.08 g</b></span><span>施压时机 <b>11%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 32%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 28%　｜　右脚（后脚）Peak 晚 · 施压时机 5%</div>
+<div class="r1"><img data-src="r10s1/img/ts02.png" alt=""><img data-src="r10s1/img/fg02.png" alt=""></div>
+<div class="r2"><img data-src="r10s1/img/fs02.png" alt=""><img data-src="r10s1/img/fr02.png" alt=""><img data-src="r10s1/img/fl02.png" alt=""></div></div><div class="card turn" id="r10s1-t3"><div class="th"><h3>T3 · 后刃</h3><span class="t">11:02:16.03 – 11:02:17.03（1.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.69 g</b></span><span>施压时机 <b>14%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 16%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 24%　｜　右脚（后脚）Peak 晚 · 施压时机 9%</div>
+<div class="r1"><img data-src="r10s1/img/ts03.png" alt=""><img data-src="r10s1/img/fg03.png" alt=""></div>
+<div class="r2"><img data-src="r10s1/img/fs03.png" alt=""><img data-src="r10s1/img/fr03.png" alt=""><img data-src="r10s1/img/fl03.png" alt=""></div></div><div class="card turn" id="r10s1-t4"><div class="th"><h3>T4 · 前刃</h3><span class="t">11:02:17.03 – 11:02:17.79（0.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>2.15 g</b></span><span>施压时机 <b>10%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 32%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 25%　｜　右脚（后脚）Peak 早 · 施压时机 3%</div>
+<div class="r1"><img data-src="r10s1/img/ts04.png" alt=""><img data-src="r10s1/img/fg04.png" alt=""></div>
+<div class="r2"><img data-src="r10s1/img/fs04.png" alt=""><img data-src="r10s1/img/fr04.png" alt=""><img data-src="r10s1/img/fl04.png" alt=""></div></div><div class="card turn" id="r10s1-t5"><div class="th"><h3>T5 · 后刃</h3><span class="t">11:02:17.79 – 11:02:18.71（0.9 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.69 g</b></span><span>施压时机 <b>19%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 26%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 19%　｜　右脚（后脚）Peak 晚 · 施压时机 11%</div>
+<div class="r1"><img data-src="r10s1/img/ts05.png" alt=""><img data-src="r10s1/img/fg05.png" alt=""></div>
+<div class="r2"><img data-src="r10s1/img/fs05.png" alt=""><img data-src="r10s1/img/fr05.png" alt=""><img data-src="r10s1/img/fl05.png" alt=""></div></div><div class="card turn" id="r10s1-t6"><div class="th"><h3>T6 · 前刃</h3><span class="t">11:02:18.71 – 11:02:19.55（0.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>2.32 g</b></span><span>施压时机 <b>9%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 24%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 19%　｜　右脚（后脚）Peak 早 · 施压时机 5%</div>
+<div class="r1"><img data-src="r10s1/img/ts06.png" alt=""><img data-src="r10s1/img/fg06.png" alt=""></div>
+<div class="r2"><img data-src="r10s1/img/fs06.png" alt=""><img data-src="r10s1/img/fr06.png" alt=""><img data-src="r10s1/img/fl06.png" alt=""></div></div><div class="card turn" id="r10s1-t7"><div class="th"><h3>T7 · 后刃</h3><span class="t">11:02:19.55 – 11:02:20.67（1.1 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.41 g</b></span><span>施压时机 <b>20%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 32%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 22%　｜　右脚（后脚）Peak 晚 · 施压时机 11%</div>
+<div class="r1"><img data-src="r10s1/img/ts07.png" alt=""><img data-src="r10s1/img/fg07.png" alt=""></div>
+<div class="r2"><img data-src="r10s1/img/fs07.png" alt=""><img data-src="r10s1/img/fr07.png" alt=""><img data-src="r10s1/img/fl07.png" alt=""></div></div><div class="card turn" id="r10s1-t8"><div class="th"><h3>T8 · 前刃</h3><span class="t">11:02:20.67 – 11:02:21.47（0.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.92 g</b></span><span>施压时机 <b>11%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 25%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 22%　｜　右脚（后脚）Peak 早 · 施压时机 4%</div>
+<div class="r1"><img data-src="r10s1/img/ts08.png" alt=""><img data-src="r10s1/img/fg08.png" alt=""></div>
+<div class="r2"><img data-src="r10s1/img/fs08.png" alt=""><img data-src="r10s1/img/fr08.png" alt=""><img data-src="r10s1/img/fl08.png" alt=""></div></div><div class="card turn" id="r10s1-t9"><div class="th"><h3>T9 · 后刃</h3><span class="t">11:02:21.47 – 11:02:22.75（1.3 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.70 g</b></span><span>施压时机 <b>13%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 19%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 16%　｜　右脚（后脚）Peak 晚 · 施压时机 7%</div>
+<div class="r1"><img data-src="r10s1/img/ts09.png" alt=""><img data-src="r10s1/img/fg09.png" alt=""></div>
+<div class="r2"><img data-src="r10s1/img/fs09.png" alt=""><img data-src="r10s1/img/fr09.png" alt=""><img data-src="r10s1/img/fl09.png" alt=""></div></div><div class="card turn" id="r10s1-t10"><div class="th"><h3>T10 · 前刃</h3><span class="t">11:02:22.75 – 11:02:23.79（1.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.42 g</b></span><span>施压时机 <b>13%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 15%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 23%　｜　右脚（后脚）Peak 早 · 施压时机 4%</div>
+<div class="r1"><img data-src="r10s1/img/ts10.png" alt=""><img data-src="r10s1/img/fg10.png" alt=""></div>
+<div class="r2"><img data-src="r10s1/img/fs10.png" alt=""><img data-src="r10s1/img/fr10.png" alt=""><img data-src="r10s1/img/fl10.png" alt=""></div></div><div class="card turn" id="r10s1-t11"><div class="th"><h3>T11 · 后刃</h3><span class="t">11:02:23.79 – 11:02:24.75（1.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.45 g</b></span><span>施压时机 <b>16%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 25%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 19%　｜　右脚（后脚）Peak 晚 · 施压时机 2%</div>
+<div class="r1"><img data-src="r10s1/img/ts11.png" alt=""><img data-src="r10s1/img/fg11.png" alt=""></div>
+<div class="r2"><img data-src="r10s1/img/fs11.png" alt=""><img data-src="r10s1/img/fr11.png" alt=""><img data-src="r10s1/img/fl11.png" alt=""></div></div><div class="card turn" id="r10s1-t12"><div class="th"><h3>T12 · 前刃</h3><span class="t">11:02:24.75 – 11:02:25.67（0.9 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.61 g</b></span><span>施压时机 <b>19%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 22%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 29%　｜　右脚（后脚）Peak 晚 · 施压时机 11%</div>
+<div class="r1"><img data-src="r10s1/img/ts12.png" alt=""><img data-src="r10s1/img/fg12.png" alt=""></div>
+<div class="r2"><img data-src="r10s1/img/fs12.png" alt=""><img data-src="r10s1/img/fr12.png" alt=""><img data-src="r10s1/img/fl12.png" alt=""></div></div><div class="card turn" id="r10s1-t13"><div class="th"><h3>T13 · 后刃</h3><span class="t">11:02:25.67 – 11:02:26.67（1.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.57 g</b></span><span>施压时机 <b>18%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 28%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 23%　｜　右脚（后脚）Peak 晚 · 施压时机 10%</div>
+<div class="r1"><img data-src="r10s1/img/ts13.png" alt=""><img data-src="r10s1/img/fg13.png" alt=""></div>
+<div class="r2"><img data-src="r10s1/img/fs13.png" alt=""><img data-src="r10s1/img/fr13.png" alt=""><img data-src="r10s1/img/fl13.png" alt=""></div></div><div class="card turn" id="r10s1-t14"><div class="th"><h3>T14 · 前刃</h3><span class="t">11:02:26.67 – 11:02:27.55（0.9 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.41 g</b></span><span>施压时机 <b>29%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 18%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 39%　｜　右脚（后脚）Peak 早 · 施压时机 26%</div>
+<div class="r1"><img data-src="r10s1/img/ts14.png" alt=""><img data-src="r10s1/img/fg14.png" alt=""></div>
+<div class="r2"><img data-src="r10s1/img/fs14.png" alt=""><img data-src="r10s1/img/fr14.png" alt=""><img data-src="r10s1/img/fl14.png" alt=""></div></div><div class="card turn" id="r10s1-t15"><div class="th"><h3>T15 · 后刃</h3><span class="t">11:02:27.55 – 11:02:28.51（1.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.61 g</b></span><span>施压时机 <b>21%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 17%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 22%　｜　右脚（后脚）Peak 晚 · 施压时机 14%</div>
+<div class="r1"><img data-src="r10s1/img/ts15.png" alt=""><img data-src="r10s1/img/fg15.png" alt=""></div>
+<div class="r2"><img data-src="r10s1/img/fs15.png" alt=""><img data-src="r10s1/img/fr15.png" alt=""><img data-src="r10s1/img/fl15.png" alt=""></div></div><div class="card turn" id="r10s1-t16"><div class="th"><h3>T16 · 前刃</h3><span class="t">11:02:28.51 – 11:02:29.35（0.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.49 g</b></span><span>施压时机 <b>26%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 36%　｜　右脚（后脚）Peak 早 · 施压时机 19%</div>
+<div class="r1"><img data-src="r10s1/img/ts16.png" alt=""><img data-src="r10s1/img/fg16.png" alt=""></div>
+<div class="r2"><img data-src="r10s1/img/fs16.png" alt=""><img data-src="r10s1/img/fr16.png" alt=""><img data-src="r10s1/img/fl16.png" alt=""></div></div><div class="card turn" id="r10s1-t17"><div class="th"><h3>T17 · 后刃</h3><span class="t">11:02:29.35 – 11:02:30.39（1.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.54 g</b></span><span>施压时机 <b>22%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 19%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 32%　｜　右脚（后脚）Peak 晚 · 施压时机 20%</div>
+<div class="r1"><img data-src="r10s1/img/ts17.png" alt=""><img data-src="r10s1/img/fg17.png" alt=""></div>
+<div class="r2"><img data-src="r10s1/img/fs17.png" alt=""><img data-src="r10s1/img/fr17.png" alt=""><img data-src="r10s1/img/fl17.png" alt=""></div></div><div class="card turn" id="r10s1-t18"><div class="th"><h3>T18 · 前刃</h3><span class="t">11:02:30.39 – 11:02:31.23（0.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.58 g</b></span><span>施压时机 <b>21%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 38%　｜　右脚（后脚）Peak 早 · 施压时机 16%</div>
+<div class="r1"><img data-src="r10s1/img/ts18.png" alt=""><img data-src="r10s1/img/fg18.png" alt=""></div>
+<div class="r2"><img data-src="r10s1/img/fs18.png" alt=""><img data-src="r10s1/img/fr18.png" alt=""><img data-src="r10s1/img/fl18.png" alt=""></div></div><div class="card turn" id="r10s1-t19"><div class="th"><h3>T19 · 后刃</h3><span class="t">11:02:31.23 – 11:02:32.19（1.0 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.54 g</b></span><span>施压时机 <b>13%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 15%　｜　右脚（后脚）Peak 晚 · 施压时机 11%</div>
+<div class="r1"><img data-src="r10s1/img/ts19.png" alt=""><img data-src="r10s1/img/fg19.png" alt=""></div>
+<div class="r2"><img data-src="r10s1/img/fs19.png" alt=""><img data-src="r10s1/img/fr19.png" alt=""><img data-src="r10s1/img/fl19.png" alt=""></div></div><div class="card turn" id="r10s1-t20"><div class="th"><h3>T20 · 前刃</h3><span class="t">11:02:32.19 – 11:02:33.03（0.8 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.50 g</b></span><span>施压时机 <b>23%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 39%　｜　右脚（后脚）Peak 早 · 施压时机 15%</div>
+<div class="r1"><img data-src="r10s1/img/ts20.png" alt=""><img data-src="r10s1/img/fg20.png" alt=""></div>
+<div class="r2"><img data-src="r10s1/img/fs20.png" alt=""><img data-src="r10s1/img/fr20.png" alt=""><img data-src="r10s1/img/fl20.png" alt=""></div></div><div class="card turn" id="r10s1-t21"><div class="th"><h3>T21 · 后刃</h3><span class="t">11:02:33.03 – 11:02:33.91（0.9 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.67 g</b></span><span>施压时机 <b>25%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 14%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 30%　｜　右脚（后脚）Peak 晚 · 施压时机 19%</div>
+<div class="r1"><img data-src="r10s1/img/ts21.png" alt=""><img data-src="r10s1/img/fg21.png" alt=""></div>
+<div class="r2"><img data-src="r10s1/img/fs21.png" alt=""><img data-src="r10s1/img/fr21.png" alt=""><img data-src="r10s1/img/fl21.png" alt=""></div></div><div class="card turn" id="r10s1-t22"><div class="th"><h3>T22 · 前刃</h3><span class="t">11:02:33.91 – 11:02:34.83（0.9 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.77 g</b></span><span>施压时机 <b>26%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 17%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 34%　｜　右脚（后脚）Peak 早 · 施压时机 23%</div>
+<div class="r1"><img data-src="r10s1/img/ts22.png" alt=""><img data-src="r10s1/img/fg22.png" alt=""></div>
+<div class="r2"><img data-src="r10s1/img/fs22.png" alt=""><img data-src="r10s1/img/fr22.png" alt=""><img data-src="r10s1/img/fl22.png" alt=""></div></div><div class="card turn" id="r10s1-t23"><div class="th"><h3>T23 · 后刃</h3><span class="t">11:02:34.83 – 11:02:36.31（1.5 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.94 g</b></span><span>施压时机 <b>44%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 11%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 46%　｜　右脚（后脚）Peak 晚 · 施压时机 43%</div>
+<div class="r1"><img data-src="r10s1/img/ts23.png" alt=""><img data-src="r10s1/img/fg23.png" alt=""></div>
+<div class="r2"><img data-src="r10s1/img/fs23.png" alt=""><img data-src="r10s1/img/fr23.png" alt=""><img data-src="r10s1/img/fl23.png" alt=""></div></div><div class="card turn" id="r10s1-t24"><div class="th"><h3>T24 · 前刃</h3><span class="t">11:02:36.31 – 11:02:37.83（1.5 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.19 g</b></span><span>施压时机 <b>38%</b> 在滚落线前</span><span>Peak 点 <b>晚</b> （滚落线后 32%）</span></div><div class="fl">左脚（前脚）Peak 晚 · 施压时机 41%　｜　右脚（后脚）Peak 早 · 施压时机 38%</div>
+<div class="r1"><img data-src="r10s1/img/ts24.png" alt=""><img data-src="r10s1/img/fg24.png" alt=""></div>
+<div class="r2"><img data-src="r10s1/img/fs24.png" alt=""><img data-src="r10s1/img/fr24.png" alt=""><img data-src="r10s1/img/fl24.png" alt=""></div></div><div class="card turn" id="r10s1-t25"><div class="th"><h3>T25 · 后刃</h3><span class="t">11:02:37.83 – 11:02:39.23（1.4 秒）</span></div>
+<div class="chips"><span>离心力 <b>1.21 g</b></span><span>施压时机 <b>66%</b> 在滚落线前</span><span>Peak 点 <b>早</b> （滚落线前 17%）</span></div><div class="fl">左脚（前脚）Peak 早 · 施压时机 85%　｜　右脚（后脚）Peak 早 · 施压时机 43%</div>
+<div class="r1"><img data-src="r10s1/img/ts25.png" alt=""><img data-src="r10s1/img/fg25.png" alt=""></div>
+<div class="r2"><img data-src="r10s1/img/fs25.png" alt=""><img data-src="r10s1/img/fr25.png" alt=""><img data-src="r10s1/img/fl25.png" alt=""></div></div><div class="card turn" id="r10s1-t26"><div class="th"><h3>T26 · 后刃</h3><span class="t">11:02:39.23 – 11:02:43.67（4.4 秒）</span></div>
+<div class="chips"><span>离心力 <b>0.54 g</b></span><span>施压时机 <b>40%</b> 在滚落线前</span><span>Peak 点 <b>准</b> （滚落线前后 10% 内）</span></div><div class="fl">左脚（前脚）Peak 准 · 施压时机 24%　｜　右脚（后脚）Peak 早 · 施压时机 57%</div>
+<div class="r1"><img data-src="r10s1/img/ts26.png" alt=""><img data-src="r10s1/img/fg26.png" alt=""></div>
+<div class="r2"><img data-src="r10s1/img/fs26.png" alt=""><img data-src="r10s1/img/fr26.png" alt=""><img data-src="r10s1/img/fl26.png" alt=""></div></div></section></div>
+<script>
+function lazy(s){s.querySelectorAll('[data-src]').forEach(el=>{el.src=el.dataset.src;el.removeAttribute('data-src')})}
+function show(k){document.querySelectorAll('section.run').forEach(s=>s.hidden=s.id!=='s-'+k);lazy(document.getElementById('s-'+k));if(location.hash.slice(1)!==k)history.replaceState(null,'','#'+k)}
+const pick=document.getElementById('pick');pick.addEventListener('change',()=>{show(pick.value);scrollTo(0,0)});
+const h=location.hash.slice(1).split('-')[0];if([...pick.options].some(o=>o.value===h))pick.value=h;show(pick.value);
+</script></body></html>
